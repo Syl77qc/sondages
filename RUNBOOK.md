@@ -32,8 +32,32 @@ PROJET IA/sondages/
 
 ## 1. Un nouveau sondage est publié
 
+### 1.0 Voie automatique — `pipeline/pipeline.py`
+```bash
+python3 pipeline/pipeline.py --dossier . --simulation   # voir ce qui serait fait
+python3 pipeline/pipeline.py --dossier .                # faire
+```
+Le script détecte les rapports non intégrés, les extrait, les saisit, étend les plages,
+recalcule, passe les neuf contrôles, met à jour le CSV **et** la page. Il s'arrête au
+moindre doute plutôt que de produire une projection fausse. Les sections 1.1 à 1.6
+décrivent la même chose à la main : elles restent la référence quand le script s'arrête.
+
+**Trois conventions qu'il applique, et qu'il faut connaître :**
+
+| | Convention | Pourquoi |
+|---|---|---|
+| Date | **Milieu** de la période de terrain, lue **dans le PDF** | Le nom de fichier porte la date de publication : Léger publie le 1er sept. un sondage mené du 28 au 31 août. Un sondage mesure un intervalle, pas un instant. |
+| `n` | La colonne d'effectifs du **tableau régional** du rapport, province et régions | Elle existe dans les trois formats. Aucun effectif n'est estimé ni divisé. |
+| Doublon | Refusé si même firme, moins de six jours d'écart, et parts provinciales identiques à 0,6 pt près | Le même sondage arrive deux fois : rapport de terrain, puis rapport régional. |
+
+> **Effectifs des lignes antérieures au 1er septembre 2026.** Toutes portent `n = 300`,
+> une valeur de remplissage saisie à la main. La pondération par √n de l'agrégat est donc
+> uniforme sur ces sondages-là, ce qui est un choix défendable mais n'est pas celui que la
+> formule annonce. Les vrais effectifs sont lisibles dans les rapports ; leur reprise est
+> au `TODO`.
+
 ### 1.1 Déposer le rapport
-Enregistrer le PDF dans `Data/` sous le format **`AAAA-MM-JJ-firme.pdf`** (date de **fin de terrain**, pas de publication). Exemple : `2026-09-12-leger.pdf`. Le nommage est ce qui permet l'extraction automatique.
+Enregistrer le PDF dans `Data/` sous le format **`AAAA-MM-JJ-firme.pdf`**. La date du nom sert d'index et de garde-fou (le script refuse un terrain à plus de 30 jours d'elle) ; c'est la date **lue dans le rapport** qui est saisie. Exemple : `2026-09-12-leger.pdf`. Le nommage est ce qui permet la détection automatique.
 
 ### 1.2 Extraire les ventilations régionales
 ```bash

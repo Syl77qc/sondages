@@ -114,3 +114,27 @@ Le facteur d'inertie (`O2` = 0,5), le poids du swing et la demi-vie de l'agréga
 - `memoire.txt` attribue qc125.com à « William Croteau-Charest ». Qc125 est de **Philippe J. Fournier**. À corriger avant qu'un livrable ne reprenne l'erreur.
 - v4.1 `Méthodologie!B14` cite « résultats par bureau de vote 2018 et 2022 » comme source, alors que `B12` dit que les votes historiques ne sont disponibles que par circonscription. Les deux énoncés sont réconciliables — on a les résultats par bureau mais pas les polygones historiques — mais la formulation devrait le dire.
 - Trois versions portent le même intitulé v4.0/v6.0 dans la cellule `Sièges!A1` alors que les noms de fichiers disent v4.1, v5 et v6. Aligner.
+
+### P1 — Reprendre les effectifs (`n`) de la feuille Sondages
+Toutes les lignes antérieures au 1er sept. 2026 portent `n = 300`, une valeur de
+remplissage. La pondération par √n de l'agrégat est donc uniforme sur ces sondages,
+alors que la formule annonce une pondération par la taille d'échantillon. Les vrais
+effectifs (province et régions) sont lisibles dans les rapports et déjà extraits sans
+erreur par `pipeline/pipeline.py` : `m.extraire(pdf, firme)` les renvoie.
+**Contre-argument** : rien ne dit que corriger améliore la projection. Les onze sondages
+concernés ont des échantillons de 800 à 1 100 ; passer d'un poids uniforme à √n ne
+change les poids relatifs que de ±15 %. À vérifier avant de toucher : recalculer les
+deux versions et comparer les sièges. Si l'écart est nul, documenter plutôt que corriger.
+
+### P1 — Le classeur et la page n'agrègent pas les mêmes sondages
+La feuille `Sondages` contient 12 sondages (ceux qui ont une ventilation régionale) ;
+`data/sondages_national.csv` en contient 36. Le niveau national du classeur — celui qui
+sert aux sièges — vient des 12 ; celui de la page vient des 36. Mesuré le 1er sept. 2026 :
+CAQ 24,97 / PLQ 20,90 / QS 9,38 / PQ 28,93 / PCQ 15,38 pour le classeur, contre
+25,19 / 21,10 / 9,13 / 28,74 / 15,46 pour la page. Écart de 0,2 à 0,25 pt, soit moins que
+le bruit, parce que la fenêtre gaussienne de 25 jours écrase de toute façon les sondages
+anciens. **Mais c'est une divergence de conception, pas un arrondi** : les sièges affichés
+ne découlent pas exactement des pourcentages affichés au-dessus d'eux.
+**Contre-argument** : faire converger les deux voudrait dire saisir les 36 sondages dans
+le classeur, dont 24 n'ont aucune ventilation régionale et ne serviraient qu'au niveau
+national. Alternative moins coûteuse : faire lire au classeur le niveau national du CSV.
