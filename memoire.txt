@@ -1,0 +1,70 @@
+MÉMOIRE DE TRAVAIL — Modèle vivant QC127
+Dernière mise à jour : 31 août 2026 (remplace la version antérieure, qui décrivait un état périmé)
+
+CONTEXTE
+Sylvain construit un modèle vivant de projection de sièges pour l'élection générale
+québécoise du 5 OCTOBRE 2026. La campagne est déclenchée depuis le 27 août.
+Écosystème de référence : qc125.com, de PHILIPPE J. FOURNIER (et non William
+Croteau-Charest — erreur de la version précédente de ce fichier), et route127.ca.
+
+ÉTAT ACTUEL — LU CECI AVANT TOUTE CHOSE
+La carte électorale compte 127 CIRCONSCRIPTIONS depuis la Loi visant à assurer la
+représentation effective des électeurs (2026, chapitre 15), sanctionnée le 12 juin 2026.
+Le seuil de majorité est de 64 SIÈGES, jamais 63.
+
+Le fichier courant est ModeleVivantQC127_v7_agregat.xlsx. Il est DÉJÀ à jour :
+- 127 circonscriptions, régions Île 28 / Banlieue 40 / Québec RMR 13 / Reste 46
+- référence 2022 = votes réels du DGEQ (4 112 821) transposés sur la carte 2026 par
+  les poids électoraux des sections de vote (matrice de l'onglet Correspondance)
+- référence provinciale CAQ 40,98 · PLQ 14,37 · QS 15,43 · PQ 14,61 · PCQ 13,22 · Autre 1,39
+- onglets Sondages et Agrégat VIVANTS : 11 rapports, niveau national et pente par
+  régression linéaire pondérée, décalages régionaux pondérés récence × racine(n)
+- scénarios A (swing proportionnel), B (+ inertie locale), C/D (fourchette ±N2),
+  E (amorti proportionnel/uniforme)
+
+NE PAS RECONSTRUIRE CE QUI EXISTE. Les versions v3, v4, v4.1, v5 et v6 sont
+historiques. v4.1 contient le bon crosswalk géographique mais sur une base d'électeurs
+inscrits et avec une fuite « Autre → PQ » ; v6 a la bonne base de votes mais une
+transposition incomplète. v7 fusionne les deux.
+
+PROJECTION AU 31 AOÛT (scénario A) : CAQ 28 · PLQ 36 · QS 6 · PQ 48 · PCQ 9.
+Aucun scénario ne donne de majorité. Tendance sur 30 jours : CAQ +6,6, PLQ −6,2.
+
+PROCÉDURE
+Le fichier RUNBOOK.md décrit la marche à suivre pour intégrer un nouveau sondage,
+les huit contrôles de non-régression et la règle d'arrêt. Le fichier TODO.md contient
+le reste à faire, priorisé. Les deux sont à la racine de ce dossier.
+
+PRINCIPES ACQUIS — NE PAS LES REDÉCOUVRIR
+- Ne jamais projeter des sièges à partir d'un SONDAGE UNIQUE. Le même fichier, même
+  carte, même méthode, donne PQ 66 avec le Pallas du 2 août et PQ 35 avec le Synopsis
+  du 25 août. Toujours passer par l'agrégat.
+- Une moyenne pondérée par récence ne suffit pas : elle retarde sur une série en
+  tendance. Il faut estimer le NIVEAU ET LA PENTE.
+- Comparer une firme à elle-même annule son effet de maison ; comparer deux firmes
+  entre elles mélange l'opinion et la méthode. Mais l'incertitude sur un écart est
+  plus grande que sur un niveau.
+- L'écart Île / Banlieue est massif et de signe constant : CAQ −12,8 · PLQ +13,9 ·
+  QS +8,8 · PQ −11,1. Confirmé par le Léger cumulatif (n=1 885 / 1 828).
+- Les panels web publient un INTERVALLE DE CRÉDIBILITÉ, pas une marge d'erreur, et il
+  ne couvre que l'échantillonnage. Régions!N2 est à 6,0 pp, non à la valeur publiée.
+- La relation intentions-sièges de la CAQ est quasi plate sous 24 % et explosive entre
+  25 et 30 %. Elle est actuellement dans cette zone : deux points déplacent des dizaines
+  de sièges. Tout livrable doit le dire.
+- Le correctif de biais PQ (−2,3 pp) reste un scénario étiqueté, jamais le centre :
+  la revue de littérature ne l'appuie pas. Les ajustements sortants et chefs restent
+  dehors, faute d'appui empirique.
+- Toute recommandation s'accompagne d'un contre-argument explicite ou d'une condition
+  d'échec.
+
+MÉTHODE DE TRAVAIL
+- Français québécois. Sources : Élections Québec, ISQ, rapports PDF des firmes.
+- Les livrables Excel sont des modèles vivants à formules, intrants en bleu.
+- Tout résultat est répliqué indépendamment en Python avant d'être publié.
+- openpyxl n'évalue pas les formules : recalculer obligatoirement après écriture.
+- Points de contrôle avant exécution, pas de longues confirmations préalables.
+
+OUTILS
+Python (pdftotext -layout + regex pour les PDF, openpyxl, numpy), Node.js pour la
+construction du classeur, scripts du pipeline dans .work/ (build_geospatial_reference.py,
+build_qc127.mjs, verify_qc127.py, analyze_crosswalk.py).
