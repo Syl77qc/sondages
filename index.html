@@ -1,4 +1,4 @@
-<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>:root{color-scheme:light dark}body{margin:0}img{max-width:100%}</style><title>Tendances Québec 2026</title>
+<title>Tendances Québec 2026</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
 <style>
 :root{
@@ -78,10 +78,19 @@ footer{margin-top:38px;padding-top:16px;border-top:1px solid var(--rule);font-si
 .punch b{color:var(--ink)}
 .warn{border-left:2px solid var(--qs);padding-left:15px;margin-top:14px}
 .warn b{color:var(--ink)}
+.dist{width:100%;font-size:13px;font-variant-numeric:tabular-nums;border-collapse:collapse}
+.dist th,.dist td{padding:7px 9px;border-bottom:1px solid var(--rule-soft);text-align:right}
+.dist th:first-child,.dist td:first-child{text-align:left}
+.dist thead th{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--rule)}
+.dist td.j{width:48%;min-width:120px;padding-right:2px}
+.dist .hors{color:var(--muted)}
+.jauge{display:block;height:9px;border-radius:2px;background:var(--rule-soft);position:relative;overflow:hidden}
+.jauge i{position:absolute;top:0;bottom:0;border-radius:2px}
+.src{font-size:12.5px;color:var(--muted);margin:11px 0 0;max-width:70ch}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 
-</head><body><div class="wrap">
+<div class="wrap">
 <header>
   <p class="eyebrow">Sondages provinciaux · lissage local · 1er septembre 2026</p>
   <h1>Tendances Québec&nbsp;2026</h1>
@@ -123,6 +132,16 @@ footer{margin-top:38px;padding-top:16px;border-top:1px solid var(--rule);font-si
 <p><b>Ces chiffres bougent beaucoup pour peu.</b> Dix circonscriptions se jouent actuellement à moins de cinq points d'écart. Un déplacement de deux points d'intentions de vote peut en déplacer des dizaines d'un coup — la traduction votes-sièges n'a rien de proportionnel. Un décompte de sièges se cite avec cet avertissement, ou ne se cite pas.</p>
 </div>
 
+<h2>Ce qu'il faudrait pour une majorité</h2>
+<p>« Où serons-nous le 5 octobre ? » n'a pas de réponse fiable&nbsp;: la pente ne la connaît pas. Une autre question en a une — <em>quelle distance reste-t-il à franchir&nbsp;?</em> Voici, pour chaque parti, les points de vote qu'il lui faudrait gagner pour atteindre 64 sièges.</p>
+
+<div class="tablescroll" style="margin-top:14px"><table class="dist" id="td"></table></div>
+<p class="src">Fourchettes calculées sur les trois formes de report du modèle et selon la provenance des voix gagnées&nbsp;: que la CAQ les prenne au PLQ, au PQ ou au PCQ déplace son seuil d'environ un point. Recalculées à chaque mise à jour.</p>
+
+<p><b>Deux partis sont à portée, trois ne le sont pas.</b> Il faudrait au PLQ, au PCQ ou à Québec solidaire un déplacement de seize à vingt-trois points en cinq semaines. La série de la dernière année ne contient aucun mouvement de cette taille.</p>
+<p><b>La CAQ est le seul parti dont la distance et la vitesse récente sont du même ordre&nbsp;:</b> il lui manque à peu près ce qu'elle vient de gagner en un mois. Le PQ, lui, est le plus près du but tout en s'en éloignant.</p>
+<div class="warn"><p><b>La colonne des pentes dit d'où l'on vient, pas où l'on va.</b> Prolonger une pente jusqu'au scrutin, testé sur cette même série, se trompe en moyenne de 4,7&nbsp;points — davantage que de supposer qu'il ne se passe rien du tout.</p></div>
+
 <h2>Deux fractures que la moyenne nationale cache</h2>
 <p>Un pourcentage provincial ne dit pas qui gagne où. Deux lignes de partage font l'essentiel du travail, et aucune n'est visible sur la courbe ci-dessus. Ce sont elles qui expliquent pourquoi deux modèles partant des mêmes intentions de vote peuvent arriver à des résultats très différents.</p>
 
@@ -157,10 +176,8 @@ footer{margin-top:38px;padding-top:16px;border-top:1px solid var(--rule);font-si
 <div class="punch"><p><b>Ce que ça change : quatorze circonscriptions sur soixante-huit.</b> Distinguer l'Île de sa banlieue plutôt que leur appliquer la même moyenne fait basculer quatorze sièges. Sur l'Île, la moyenne écrase Québec solidaire — 10&nbsp;% au lieu de 15 — et lui coûte cinq circonscriptions : Gouin, Mercier, Hochelaga-Maisonneuve, Laurier-Dorion et Sainte-Marie-Saint-Jacques. En banlieue, elle sous-estime la CAQ de sept points et lui en coûte six autres, dont Blainville, Beauharnois et La Prairie.</p></div>
 
 <h2>D'ici le 5 octobre</h2>
-<p>Cette page décrit le présent. Elle ne prévoit pas le scrutin, et la distinction n'est pas une coquetterie : il reste cinq semaines de campagne, et rien de ce qui n'est pas encore arrivé n'est dans le modèle. Trois choses à surveiller.</p>
-<p><b>La CAQ est dans sa zone de bascule.</b> Entre 25 et 30 %, chaque point supplémentaire lui rapporte beaucoup plus de sièges que le précédent. C'est là qu'elle se trouve, et c'est ce qui rend la projection instable.</p>
+<p>Cette page décrit le présent. Elle ne prévoit pas le scrutin, et la distinction n'est pas une coquetterie : il reste cinq semaines de campagne, et rien de ce qui n'est pas encore arrivé n'est dans le modèle.</p>
 <p><b>Le PCQ tient la région de Québec sans y avoir progressé.</b> Il y récolte 28 %, à peu près ce qu'il y récoltait en novembre. S'il y est passé premier, c'est que le PQ s'y est effondré — de 37 à 27 % — pendant que la CAQ y doublait, de 14 à 27 %. Il n'a pas gagné la région : il a été le seul à ne pas la perdre. Ses neuf sièges projetés se répartissent entre cinq circonscriptions de la RMR de Québec — Chauveau, La Peltrie, Portneuf, Montmorency, Chutes-de-la-Chaudière — et quatre de Chaudière-Appalaches, où le grand sondage régional de Léger le donne à 36 %. Il termine deuxième dans dix-sept autres.</p>
-<p><b>Dix circonscriptions se jouent à moins de cinq points.</b> Elles suffisent à faire passer un gouvernement de minoritaire fragile à minoritaire confortable — ou l'inverse.</p>
 
 <h2>Les données</h2>
 <p>Valeurs lissées au premier de chaque mois, et les cinq sondages les plus récents. Le lissage pondère chaque sondage selon sa proximité dans le temps et la taille de son échantillon.</p>
@@ -260,6 +277,7 @@ const SEATS={
  'D – Fourchette basse':{PQ:57,PLQ:32,CAQ:25,PCQ:10,QS:3},
  'E – Amorti prop./uniforme':{PQ:49,PLQ:36,CAQ:27,PCQ:9,QS:6},
  'F – Régional + langue':{PQ:52,PLQ:28,CAQ:31,PCQ:10,QS:6}};
+const DIST={PQ:[2.2,2.8],PLQ:[15.9,19.5],CAQ:[4.6,5.9],PCQ:[18.6,20.0],QS:[22.3,22.7]};
 const ORD=['PQ','PLQ','CAQ','PCQ','QS'], TOT=127, MAJ=64;
 const COUL={PQ:'--pq',PLQ:'--plq',CAQ:'--caq',PCQ:'--pcq',QS:'--qs'};
 
@@ -306,6 +324,23 @@ function seats(){
   svg.appendChild(el('line',{x1:pm,x2:pm,y1:154,y2:164+4*24+12,stroke:css('--ink'),'stroke-width':1,'stroke-dasharray':'3 4',opacity:.55}));
 }
 
+function tdist(){
+  const t=document.getElementById('td'); if(!t) return;
+  const base=SEATS['A – Swing proportionnel'];
+  const rangs=ORD.filter(k=>DIST[k]).sort((a,b)=>DIST[a][0]-DIST[b][0]).concat(ORD.filter(k=>!DIST[k]));
+  const mx=Math.max(...ORD.filter(k=>DIST[k]).map(k=>DIST[k][1]));
+  let h='<thead><tr><th>Parti</th><th>Sièges</th><th></th><th>À gagner</th><th>Pente / 30 j</th></tr></thead><tbody>';
+  rangs.forEach(k=>{
+    const d=DIST[k], c=css(COUL[k]), p=D.pente[k];
+    const a=d?d[0]/mx*100:0, b=d?(d[1]-d[0])/mx*100:0;
+    const j=d?`<span class="jauge" role="img" aria-label="de ${d[0].toFixed(1)} à ${d[1].toFixed(1)} points"><i style="left:0;width:${a.toFixed(1)}%;background:${c}"></i><i style="left:${a.toFixed(1)}%;width:${b.toFixed(1)}%;background:${c};opacity:.34"></i></span>`
+              :'<span class="jauge"></span>';
+    const v=d?`+${d[0].toFixed(1)} à +${d[1].toFixed(1)}`:'<span class="hors">hors de portée</span>';
+    h+=`<tr><td>${k}</td><td>${base[k]}</td><td class="j">${j}</td><td>${v}</td><td>${p>0?'+':'−'}${Math.abs(p).toFixed(1)}</td></tr>`;
+  });
+  t.innerHTML=h+'</tbody>';
+}
+
 function tscen(){
   const t=document.getElementById('ts'); if(!t) return;
   let h='<thead><tr><th>Scénario</th>'+ORD.map(k=>`<th>${k}</th>`).join('')+'<th>Majorité</th></tr></thead><tbody>';
@@ -334,8 +369,7 @@ svg.addEventListener('pointermove',e=>{
 svg.addEventListener('pointerleave',()=>{tip.style.opacity=0;const c=document.getElementById('cross');if(c)c.setAttribute('opacity',0);});
 document.getElementById('pts').addEventListener('change',draw);
 const mq=window.matchMedia('(prefers-color-scheme:dark)');
-mq.addEventListener?.('change',()=>{draw();stats();seats();});
-stats(); draw(); table(); seats(); tscen();
+mq.addEventListener?.('change',()=>{draw();stats();seats();tdist();});
+stats(); draw(); table(); seats(); tscen(); tdist();
 window.addEventListener('resize',()=>{});
 </script>
-</body></html>
