@@ -1,0 +1,2805 @@
+{
+  "districts": [
+    {
+      "code": 689,
+      "name": "Abitibi-Est",
+      "region": "Reste du Québec",
+      "electors2026": 33371,
+      "votes": {
+        "CAQ": 9762,
+        "PLQ": 3044,
+        "QS": 2838,
+        "PQ": 2565,
+        "PCQ": 2486,
+        "Autre": 0
+      },
+      "residuals": {
+        "CAQ": -1.762,
+        "PLQ": 8.737,
+        "QS": -0.902,
+        "PQ": -2.879
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 681,
+      "name": "Abitibi-Ouest",
+      "region": "Reste du Québec",
+      "electors2026": 35331,
+      "votes": {
+        "CAQ": 10399,
+        "PLQ": 1153,
+        "QS": 3623,
+        "PQ": 4619,
+        "PCQ": 2293,
+        "Autre": 159
+      },
+      "residuals": {
+        "CAQ": 6.411,
+        "PLQ": 6.651,
+        "QS": 0.736,
+        "PQ": -8.284
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 299,
+      "name": "Acadie",
+      "region": "Île de Montréal",
+      "electors2026": 49793,
+      "votes": {
+        "CAQ": 4446,
+        "PLQ": 10981,
+        "QS": 4468,
+        "PQ": 2565,
+        "PCQ": 2955,
+        "Autre": 569
+      },
+      "residuals": {
+        "CAQ": -1.514,
+        "PLQ": -3.069,
+        "QS": 2.983,
+        "PQ": 2.115
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 833,
+      "name": "Anjou-Louis-Riel",
+      "region": "Île de Montréal",
+      "electors2026": 41340,
+      "votes": {
+        "CAQ": 9376,
+        "PLQ": 8045,
+        "QS": 3893,
+        "PQ": 2910,
+        "PCQ": 1887,
+        "Autre": 252
+      },
+      "residuals": {
+        "CAQ": 4.543,
+        "PLQ": -0.078,
+        "QS": -0.226,
+        "PQ": -2.411
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 589,
+      "name": "Argenteuil",
+      "region": "Reste du Québec",
+      "electors2026": 42752,
+      "votes": {
+        "CAQ": 14725,
+        "PLQ": 3325,
+        "QS": 3523,
+        "PQ": 5291,
+        "PCQ": 5243,
+        "Autre": 542
+      },
+      "residuals": {
+        "CAQ": 0.011,
+        "PLQ": 5.553,
+        "QS": -0.339,
+        "PQ": -0.724
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 147,
+      "name": "Arthabaska-L'Érable",
+      "region": "Reste du Québec",
+      "electors2026": 61771,
+      "votes": {
+        "CAQ": 23447,
+        "PLQ": 1702,
+        "QS": 4179,
+        "PQ": 4538,
+        "PCQ": 11187,
+        "Autre": 256
+      },
+      "residuals": {
+        "CAQ": -16.301,
+        "PLQ": 5.184,
+        "QS": -2.31,
+        "PQ": 4.828
+      },
+      "method": "Profil 2022 hérité de Arthabaska",
+      "coverage": 1.0
+    },
+    {
+      "code": 781,
+      "name": "Beauce-Nord",
+      "region": "Reste du Québec",
+      "electors2026": 46370,
+      "votes": {
+        "CAQ": 14590,
+        "PLQ": 951,
+        "QS": 1522,
+        "PQ": 1994,
+        "PCQ": 14388,
+        "Autre": 146
+      },
+      "residuals": {
+        "CAQ": -29.15,
+        "PLQ": -0.052,
+        "QS": -1.484,
+        "PQ": 5.027
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 777,
+      "name": "Beauce-Sud",
+      "region": "Reste du Québec",
+      "electors2026": 50607,
+      "votes": {
+        "CAQ": 16615,
+        "PLQ": 1057,
+        "QS": 1623,
+        "PQ": 1505,
+        "PCQ": 16187,
+        "Autre": 306
+      },
+      "residuals": {
+        "CAQ": -24.341,
+        "PLQ": -5.218,
+        "QS": -0.395,
+        "PQ": 4.133
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 179,
+      "name": "Beauharnois",
+      "region": "Banlieue de Montréal",
+      "electors2026": 59480,
+      "votes": {
+        "CAQ": 17882,
+        "PLQ": 1940,
+        "QS": 4299,
+        "PQ": 5640,
+        "PCQ": 3112,
+        "Autre": 379
+      },
+      "residuals": {
+        "CAQ": 3.9,
+        "PLQ": 0.01,
+        "QS": -1.418,
+        "PQ": -1.878
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 797,
+      "name": "Bellechasse",
+      "region": "Reste du Québec",
+      "electors2026": 46014,
+      "votes": {
+        "CAQ": 15065,
+        "PLQ": 1360,
+        "QS": 1988,
+        "PQ": 2908,
+        "PCQ": 11612,
+        "Autre": 0
+      },
+      "residuals": {
+        "CAQ": -14.318,
+        "PLQ": -10.253,
+        "QS": -0.425,
+        "PQ": 5.781
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 591,
+      "name": "Bellefeuille",
+      "region": "Banlieue de Montréal",
+      "electors2026": 45052,
+      "votes": {
+        "CAQ": 12629,
+        "PLQ": 1538,
+        "QS": 5035,
+        "PQ": 6275,
+        "PCQ": 4201,
+        "Autre": 56
+      },
+      "residuals": {
+        "CAQ": 0,
+        "PLQ": 0,
+        "QS": 0,
+        "PQ": 0
+      },
+      "method": "Estimation municipale 2022 pondérée par les électeurs 2026; inertie locale fixée à 0",
+      "coverage": 1.0
+    },
+    {
+      "code": 627,
+      "name": "Berthier",
+      "region": "Reste du Québec",
+      "electors2026": 53752,
+      "votes": {
+        "CAQ": 21256,
+        "PLQ": 1064,
+        "QS": 5877,
+        "PQ": 8682,
+        "PCQ": 4585,
+        "Autre": 242
+      },
+      "residuals": {
+        "CAQ": -0.379,
+        "PLQ": 7.698,
+        "QS": -0.291,
+        "PQ": -3.897
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 641,
+      "name": "Bertrand",
+      "region": "Banlieue de Montréal",
+      "electors2026": 59689,
+      "votes": {
+        "CAQ": 15927,
+        "PLQ": 2115,
+        "QS": 5682,
+        "PQ": 7259,
+        "PCQ": 3444,
+        "Autre": 761
+      },
+      "residuals": {
+        "CAQ": 0.545,
+        "PLQ": -0.494,
+        "QS": -1.267,
+        "PQ": 0.234
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 607,
+      "name": "Blainville",
+      "region": "Banlieue de Montréal",
+      "electors2026": 62072,
+      "votes": {
+        "CAQ": 21149,
+        "PLQ": 4718,
+        "QS": 5987,
+        "PQ": 6600,
+        "PCQ": 4175,
+        "Autre": 140
+      },
+      "residuals": {
+        "CAQ": -1.997,
+        "PLQ": -1.15,
+        "QS": -0.421,
+        "PQ": 4.895
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 837,
+      "name": "Bonaventure",
+      "region": "Reste du Québec",
+      "electors2026": 35779,
+      "votes": {
+        "CAQ": 9919,
+        "PLQ": 1911,
+        "QS": 2417,
+        "PQ": 6708,
+        "PCQ": 1219,
+        "Autre": 139
+      },
+      "residuals": {
+        "CAQ": 22.235,
+        "PLQ": -4.184,
+        "QS": -3.123,
+        "PQ": -4.187
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 237,
+      "name": "Borduas",
+      "region": "Banlieue de Montréal",
+      "electors2026": 58330,
+      "votes": {
+        "CAQ": 22760,
+        "PLQ": 2326,
+        "QS": 6726,
+        "PQ": 8646,
+        "PCQ": 3357,
+        "Autre": 614
+      },
+      "residuals": {
+        "CAQ": 0.274,
+        "PLQ": 0.641,
+        "QS": 0.195,
+        "PQ": 1.078
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 327,
+      "name": "Bourassa-Sauvé",
+      "region": "Île de Montréal",
+      "electors2026": 44090,
+      "votes": {
+        "CAQ": 6049,
+        "PLQ": 9704,
+        "QS": 3737,
+        "PQ": 2101,
+        "PCQ": 2161,
+        "Autre": 430
+      },
+      "residuals": {
+        "CAQ": -0.573,
+        "PLQ": 2.434,
+        "QS": 1.012,
+        "PQ": -0.703
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 157,
+      "name": "Brome-Missisquoi",
+      "region": "Banlieue de Montréal",
+      "electors2026": 57262,
+      "votes": {
+        "CAQ": 20576,
+        "PLQ": 5344,
+        "QS": 7138,
+        "PQ": 5359,
+        "PCQ": 5517,
+        "Autre": 922
+      },
+      "residuals": {
+        "CAQ": -1.684,
+        "PLQ": -5.4,
+        "QS": -0.666,
+        "PQ": 4.245
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 337,
+      "name": "Camille-Laurin",
+      "region": "Île de Montréal",
+      "electors2026": 48997,
+      "votes": {
+        "CAQ": 9165,
+        "PLQ": 4724,
+        "QS": 0,
+        "PQ": 11959,
+        "PCQ": 1869,
+        "Autre": 973
+      },
+      "residuals": {
+        "CAQ": 2.268,
+        "PLQ": 6.056,
+        "QS": -24.905,
+        "PQ": 16.918
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 207,
+      "name": "Chambly",
+      "region": "Banlieue de Montréal",
+      "electors2026": 54223,
+      "votes": {
+        "CAQ": 18500,
+        "PLQ": 2997,
+        "QS": 6250,
+        "PQ": 6831,
+        "PCQ": 3181,
+        "Autre": 411
+      },
+      "residuals": {
+        "CAQ": -4.964,
+        "PLQ": 2.538,
+        "QS": 0.685,
+        "PQ": 3.496
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 701,
+      "name": "Champlain",
+      "region": "Reste du Québec",
+      "electors2026": 60511,
+      "votes": {
+        "CAQ": 23513,
+        "PLQ": 2138,
+        "QS": 3775,
+        "PQ": 5065,
+        "PCQ": 7383,
+        "Autre": 194
+      },
+      "residuals": {
+        "CAQ": -2.184,
+        "PLQ": -0.796,
+        "QS": -2.94,
+        "PQ": 4.169
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 667,
+      "name": "Chapleau",
+      "region": "Île de Montréal",
+      "electors2026": 58782,
+      "votes": {
+        "CAQ": 16363,
+        "PLQ": 4259,
+        "QS": 4129,
+        "PQ": 3033,
+        "PCQ": 3161,
+        "Autre": 339
+      },
+      "residuals": {
+        "CAQ": 9.769,
+        "PLQ": -10.489,
+        "QS": -3.122,
+        "PQ": 1.895
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 767,
+      "name": "Charlesbourg",
+      "region": "Québec RMR",
+      "electors2026": 57384,
+      "votes": {
+        "CAQ": 18921,
+        "PLQ": 2518,
+        "QS": 5486,
+        "PQ": 5967,
+        "PCQ": 8564,
+        "Autre": 586
+      },
+      "residuals": {
+        "CAQ": -0.423,
+        "PLQ": -1.537,
+        "QS": 0.299,
+        "PQ": 0.606
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 771,
+      "name": "Charlevoix-Côte-de-Beaupré",
+      "region": "Québec RMR",
+      "electors2026": 55810,
+      "votes": {
+        "CAQ": 17979,
+        "PLQ": 1756,
+        "QS": 4677,
+        "PQ": 6041,
+        "PCQ": 6763,
+        "Autre": 106
+      },
+      "residuals": {
+        "CAQ": 5.499,
+        "PLQ": -3.039,
+        "QS": 0.425,
+        "PQ": -2.985
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 191,
+      "name": "Châteauguay",
+      "region": "Banlieue de Montréal",
+      "electors2026": 56577,
+      "votes": {
+        "CAQ": 13038,
+        "PLQ": 8260,
+        "QS": 4261,
+        "PQ": 3947,
+        "PCQ": 3363,
+        "Autre": 463
+      },
+      "residuals": {
+        "CAQ": -1.115,
+        "PLQ": -1.999,
+        "QS": 0.68,
+        "PQ": 2.602
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 769,
+      "name": "Chauveau",
+      "region": "Québec RMR",
+      "electors2026": 59636,
+      "votes": {
+        "CAQ": 20292,
+        "PLQ": 1651,
+        "QS": 3816,
+        "PQ": 3307,
+        "PCQ": 13794,
+        "Autre": 458
+      },
+      "residuals": {
+        "CAQ": 2.477,
+        "PLQ": -3.746,
+        "QS": -0.775,
+        "PQ": -3.435
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 821,
+      "name": "Chicoutimi",
+      "region": "Reste du Québec",
+      "electors2026": 45641,
+      "votes": {
+        "CAQ": 19345,
+        "PLQ": 943,
+        "QS": 3741,
+        "PQ": 4415,
+        "PCQ": 2619,
+        "Autre": 0
+      },
+      "residuals": {
+        "CAQ": 16.801,
+        "PLQ": -3.921,
+        "QS": 0.207,
+        "PQ": -6.536
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 351,
+      "name": "Chomedey",
+      "region": "Banlieue de Montréal",
+      "electors2026": 56656,
+      "votes": {
+        "CAQ": 8696,
+        "PLQ": 11895,
+        "QS": 2570,
+        "PQ": 2343,
+        "PCQ": 6467,
+        "Autre": 601
+      },
+      "residuals": {
+        "CAQ": -2.889,
+        "PLQ": -9.269,
+        "QS": 1.525,
+        "PQ": 2.627
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 789,
+      "name": "Chutes-de-la-Chaudière",
+      "region": "Québec RMR",
+      "electors2026": 61776,
+      "votes": {
+        "CAQ": 22055,
+        "PLQ": 2298,
+        "QS": 4311,
+        "PQ": 5163,
+        "PCQ": 12640,
+        "Autre": 0
+      },
+      "residuals": {
+        "CAQ": -9.348,
+        "PLQ": 5.921,
+        "QS": -1.383,
+        "PQ": -0.115
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 799,
+      "name": "Côte-du-Sud",
+      "region": "Reste du Québec",
+      "electors2026": 50443,
+      "votes": {
+        "CAQ": 16116,
+        "PLQ": 2132,
+        "QS": 3154,
+        "PQ": 4316,
+        "PCQ": 7910,
+        "Autre": 164
+      },
+      "residuals": {
+        "CAQ": -12.168,
+        "PLQ": -2.9,
+        "QS": -0.477,
+        "PQ": 6.876
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 131,
+      "name": "Daniel-Johnson",
+      "region": "Banlieue de Montréal",
+      "electors2026": 49261,
+      "votes": {
+        "CAQ": 21944,
+        "PLQ": 1469,
+        "QS": 5769,
+        "PQ": 6024,
+        "PCQ": 6323,
+        "Autre": 271
+      },
+      "residuals": {
+        "CAQ": -3.637,
+        "PLQ": -0.648,
+        "QS": -3.363,
+        "PQ": 4.269
+      },
+      "method": "Profil 2022 hérité de Johnson",
+      "coverage": 1.0
+    },
+    {
+      "code": 277,
+      "name": "D'Arcy-McGee",
+      "region": "Île de Montréal",
+      "electors2026": 56447,
+      "votes": {
+        "CAQ": 1529,
+        "PLQ": 13298,
+        "QS": 2203,
+        "PQ": 648,
+        "PCQ": 6962,
+        "Autre": 1226
+      },
+      "residuals": {
+        "CAQ": -2.598,
+        "PLQ": -14.438,
+        "QS": 0.807,
+        "PQ": 1.193
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 581,
+      "name": "Deux-Montagnes",
+      "region": "Banlieue de Montréal",
+      "electors2026": 50210,
+      "votes": {
+        "CAQ": 15854,
+        "PLQ": 3460,
+        "QS": 4766,
+        "PQ": 5777,
+        "PCQ": 3308,
+        "Autre": 510
+      },
+      "residuals": {
+        "CAQ": -3.534,
+        "PLQ": 3.786,
+        "QS": 0.325,
+        "PQ": 1.052
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 141,
+      "name": "Drummond-Bois-Francs",
+      "region": "Reste du Québec",
+      "electors2026": 53386,
+      "votes": {
+        "CAQ": 18747,
+        "PLQ": 1455,
+        "QS": 3866,
+        "PQ": 5462,
+        "PCQ": 6314,
+        "Autre": 458
+      },
+      "residuals": {
+        "CAQ": -10.871,
+        "PLQ": 3.769,
+        "QS": -3.321,
+        "PQ": 6.719
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 819,
+      "name": "Dubuc",
+      "region": "Reste du Québec",
+      "electors2026": 43023,
+      "votes": {
+        "CAQ": 15427,
+        "PLQ": 666,
+        "QS": 2833,
+        "PQ": 4699,
+        "PCQ": 2956,
+        "Autre": 200
+      },
+      "residuals": {
+        "CAQ": 11.161,
+        "PLQ": -7.107,
+        "QS": -0.456,
+        "PQ": 0.598
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 813,
+      "name": "Duplessis",
+      "region": "Reste du Québec",
+      "electors2026": 37069,
+      "votes": {
+        "CAQ": 8785,
+        "PLQ": 783,
+        "QS": 1821,
+        "PQ": 4825,
+        "PCQ": 3059,
+        "Autre": 190
+      },
+      "residuals": {
+        "CAQ": 5.226,
+        "PLQ": -1.121,
+        "QS": -1.982,
+        "PQ": -5.316
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 357,
+      "name": "Fabre",
+      "region": "Banlieue de Montréal",
+      "electors2026": 58186,
+      "votes": {
+        "CAQ": 10912,
+        "PLQ": 10606,
+        "QS": 3820,
+        "PQ": 3346,
+        "PCQ": 5205,
+        "Autre": 418
+      },
+      "residuals": {
+        "CAQ": -3.922,
+        "PLQ": 0.284,
+        "QS": 1.066,
+        "PQ": -0.733
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 809,
+      "name": "Gaspé",
+      "region": "Reste du Québec",
+      "electors2026": 30022,
+      "votes": {
+        "CAQ": 7542,
+        "PLQ": 1255,
+        "QS": 1634,
+        "PQ": 6832,
+        "PCQ": 956,
+        "Autre": 0
+      },
+      "residuals": {
+        "CAQ": 15.586,
+        "PLQ": -13.514,
+        "QS": -3.801,
+        "PQ": 8.301
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 661,
+      "name": "Gatineau",
+      "region": "Reste du Québec",
+      "electors2026": 61561,
+      "votes": {
+        "CAQ": 17055,
+        "PLQ": 7137,
+        "QS": 4415,
+        "PQ": 3542,
+        "PCQ": 4254,
+        "Autre": 88
+      },
+      "residuals": {
+        "CAQ": -1.218,
+        "PLQ": 1.848,
+        "QS": 0.216,
+        "PQ": 4.909
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 311,
+      "name": "Gouin",
+      "region": "Île de Montréal",
+      "electors2026": 42477,
+      "votes": {
+        "CAQ": 3596,
+        "PLQ": 2444,
+        "QS": 17283,
+        "PQ": 3962,
+        "PCQ": 903,
+        "Autre": 890
+      },
+      "residuals": {
+        "CAQ": 0.351,
+        "PLQ": 5.414,
+        "QS": -0.163,
+        "PQ": -0.007
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 159,
+      "name": "Granby",
+      "region": "Reste du Québec",
+      "electors2026": 58660,
+      "votes": {
+        "CAQ": 21515,
+        "PLQ": 1758,
+        "QS": 5282,
+        "PQ": 4378,
+        "PCQ": 3737,
+        "Autre": 301
+      },
+      "residuals": {
+        "CAQ": -10.398,
+        "PLQ": 6.808,
+        "QS": 1.304,
+        "PQ": 6.404
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 577,
+      "name": "Groulx",
+      "region": "Banlieue de Montréal",
+      "electors2026": 54024,
+      "votes": {
+        "CAQ": 17431,
+        "PLQ": 4024,
+        "QS": 5919,
+        "PQ": 5588,
+        "PCQ": 3177,
+        "Autre": 368
+      },
+      "residuals": {
+        "CAQ": 3.962,
+        "PLQ": -2.349,
+        "QS": -0.319,
+        "PQ": 2.529
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 317,
+      "name": "Hochelaga-Maisonneuve",
+      "region": "Île de Montréal",
+      "electors2026": 40321,
+      "votes": {
+        "CAQ": 4728,
+        "PLQ": 1957,
+        "QS": 12784,
+        "PQ": 4015,
+        "PCQ": 1161,
+        "Autre": 499
+      },
+      "residuals": {
+        "CAQ": 3.807,
+        "PLQ": 5.91,
+        "QS": 0.331,
+        "PQ": -6.373
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 651,
+      "name": "Hull",
+      "region": "Reste du Québec",
+      "electors2026": 60470,
+      "votes": {
+        "CAQ": 11060,
+        "PLQ": 8276,
+        "QS": 6623,
+        "PQ": 3122,
+        "PCQ": 2189,
+        "Autre": 655
+      },
+      "residuals": {
+        "CAQ": 1.99,
+        "PLQ": 4.942,
+        "QS": 3.29,
+        "PQ": 0.388
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 171,
+      "name": "Huntingdon",
+      "region": "Banlieue de Montréal",
+      "electors2026": 50082,
+      "votes": {
+        "CAQ": 13664,
+        "PLQ": 4214,
+        "QS": 3265,
+        "PQ": 3522,
+        "PCQ": 4262,
+        "Autre": 367
+      },
+      "residuals": {
+        "CAQ": 5.787,
+        "PLQ": -13.95,
+        "QS": -0.87,
+        "PQ": 4.012
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 161,
+      "name": "Iberville",
+      "region": "Banlieue de Montréal",
+      "electors2026": 51227,
+      "votes": {
+        "CAQ": 18223,
+        "PLQ": 1934,
+        "QS": 4703,
+        "PQ": 5227,
+        "PCQ": 3863,
+        "Autre": 338
+      },
+      "residuals": {
+        "CAQ": 2.358,
+        "PLQ": 0.228,
+        "QS": -2.897,
+        "PQ": 0.714
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 811,
+      "name": "Îles-de-la-Madeleine",
+      "region": "Reste du Québec",
+      "electors2026": 11146,
+      "votes": {
+        "CAQ": 3338,
+        "PLQ": 606,
+        "QS": 450,
+        "PQ": 3877,
+        "PCQ": 93,
+        "Autre": 0
+      },
+      "residuals": {
+        "CAQ": 24.355,
+        "PLQ": -18.432,
+        "QS": -7.128,
+        "PQ": 11.912
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 259,
+      "name": "Jacques-Cartier",
+      "region": "Île de Montréal",
+      "electors2026": 48021,
+      "votes": {
+        "CAQ": 2735,
+        "PLQ": 18158,
+        "QS": 1456,
+        "PQ": 877,
+        "PCQ": 4722,
+        "Autre": 1074
+      },
+      "residuals": {
+        "CAQ": -2.011,
+        "PLQ": -0.772,
+        "QS": 0.167,
+        "PQ": 1.499
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 757,
+      "name": "Jean-Lesage",
+      "region": "Québec RMR",
+      "electors2026": 44191,
+      "votes": {
+        "CAQ": 9426,
+        "PLQ": 1326,
+        "QS": 11390,
+        "PQ": 3337,
+        "PCQ": 4258,
+        "Autre": 417
+      },
+      "residuals": {
+        "CAQ": 1.604,
+        "PLQ": 1.392,
+        "QS": 3.838,
+        "PQ": -0.116
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 331,
+      "name": "Jeanne-Mance-Viger",
+      "region": "Île de Montréal",
+      "electors2026": 49663,
+      "votes": {
+        "CAQ": 4455,
+        "PLQ": 14471,
+        "QS": 2858,
+        "PQ": 1122,
+        "PCQ": 3609,
+        "Autre": 319
+      },
+      "residuals": {
+        "CAQ": -1.694,
+        "PLQ": -3.929,
+        "QS": 2.042,
+        "PQ": -0.118
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 707,
+      "name": "Jean-Talon",
+      "region": "Québec RMR",
+      "electors2026": 47189,
+      "votes": {
+        "CAQ": 11105,
+        "PLQ": 4616,
+        "QS": 8117,
+        "PQ": 6386,
+        "PCQ": 3541,
+        "Autre": 399
+      },
+      "residuals": {
+        "CAQ": 6.635,
+        "PLQ": -4.154,
+        "QS": 5.35,
+        "PQ": 2.37
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 629,
+      "name": "Joliette",
+      "region": "Reste du Québec",
+      "electors2026": 59132,
+      "votes": {
+        "CAQ": 17925,
+        "PLQ": 1178,
+        "QS": 4476,
+        "PQ": 12281,
+        "PCQ": 3470,
+        "Autre": 0
+      },
+      "residuals": {
+        "CAQ": 4.711,
+        "PLQ": 8.925,
+        "QS": 2.278,
+        "PQ": -10.798
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 823,
+      "name": "Jonquière",
+      "region": "Reste du Québec",
+      "electors2026": 45211,
+      "votes": {
+        "CAQ": 18196,
+        "PLQ": 648,
+        "QS": 2778,
+        "PQ": 5912,
+        "PCQ": 2926,
+        "Autre": 177
+      },
+      "residuals": {
+        "CAQ": 20.707,
+        "PLQ": 5.056,
+        "QS": 2.829,
+        "PQ": -24.845
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 649,
+      "name": "Labelle",
+      "region": "Reste du Québec",
+      "electors2026": 54176,
+      "votes": {
+        "CAQ": 17662,
+        "PLQ": 1679,
+        "QS": 4079,
+        "PQ": 6366,
+        "PCQ": 3173,
+        "Autre": 313
+      },
+      "residuals": {
+        "CAQ": 10.373,
+        "PLQ": 6.911,
+        "QS": -2.04,
+        "PQ": -11.297
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 827,
+      "name": "Lac-Saint-Jean",
+      "region": "Reste du Québec",
+      "electors2026": 44568,
+      "votes": {
+        "CAQ": 14798,
+        "PLQ": 867,
+        "QS": 2178,
+        "PQ": 7367,
+        "PCQ": 3270,
+        "Autre": 272
+      },
+      "residuals": {
+        "CAQ": 5.789,
+        "PLQ": 3.269,
+        "QS": -6.236,
+        "PQ": -1.698
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 339,
+      "name": "LaFontaine",
+      "region": "Île de Montréal",
+      "electors2026": 42294,
+      "votes": {
+        "CAQ": 5189,
+        "PLQ": 13398,
+        "QS": 2301,
+        "PQ": 1322,
+        "PCQ": 3406,
+        "Autre": 313
+      },
+      "residuals": {
+        "CAQ": -4.012,
+        "PLQ": 1.335,
+        "QS": -0.439,
+        "PQ": -2.002
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 729,
+      "name": "La Peltrie",
+      "region": "Québec RMR",
+      "electors2026": 59214,
+      "votes": {
+        "CAQ": 19714,
+        "PLQ": 2517,
+        "QS": 3954,
+        "PQ": 4415,
+        "PCQ": 13291,
+        "Autre": 557
+      },
+      "residuals": {
+        "CAQ": -10.676,
+        "PLQ": 3.969,
+        "QS": -0.21,
+        "PQ": 0.541
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 201,
+      "name": "La Pinière",
+      "region": "Banlieue de Montréal",
+      "electors2026": 58309,
+      "votes": {
+        "CAQ": 10272,
+        "PLQ": 12688,
+        "QS": 3301,
+        "PQ": 2577,
+        "PCQ": 3716,
+        "Autre": 396
+      },
+      "residuals": {
+        "CAQ": -0.83,
+        "PLQ": -1.671,
+        "QS": 0.684,
+        "PQ": 1.955
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 199,
+      "name": "La Prairie",
+      "region": "Banlieue de Montréal",
+      "electors2026": 50879,
+      "votes": {
+        "CAQ": 18229,
+        "PLQ": 4791,
+        "QS": 4531,
+        "PQ": 3950,
+        "PCQ": 2751,
+        "Autre": 331
+      },
+      "residuals": {
+        "CAQ": 6.395,
+        "PLQ": -3.247,
+        "QS": 0.835,
+        "PQ": -1.288
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 621,
+      "name": "L'Assomption",
+      "region": "Banlieue de Montréal",
+      "electors2026": 56838,
+      "votes": {
+        "CAQ": 18637,
+        "PLQ": 1806,
+        "QS": 4553,
+        "PQ": 4370,
+        "PCQ": 2424,
+        "Autre": 0
+      },
+      "residuals": {
+        "CAQ": -1.575,
+        "PLQ": 4.572,
+        "QS": -1.94,
+        "PQ": 2.302
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 307,
+      "name": "Laurier-Dorion",
+      "region": "Île de Montréal",
+      "electors2026": 43940,
+      "votes": {
+        "CAQ": 3203,
+        "PLQ": 5344,
+        "QS": 13323,
+        "PQ": 2800,
+        "PCQ": 1512,
+        "Autre": 1121
+      },
+      "residuals": {
+        "CAQ": 0.767,
+        "PLQ": -1.62,
+        "QS": 1.057,
+        "PQ": 3.712
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 347,
+      "name": "Laval-des-Rapides",
+      "region": "Banlieue de Montréal",
+      "electors2026": 56315,
+      "votes": {
+        "CAQ": 10599,
+        "PLQ": 9546,
+        "QS": 5542,
+        "PQ": 4293,
+        "PCQ": 2852,
+        "Autre": 398
+      },
+      "residuals": {
+        "CAQ": -2.009,
+        "PLQ": 4.081,
+        "QS": 0.419,
+        "PQ": 0.536
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 697,
+      "name": "Laviolette-Saint-Maurice",
+      "region": "Reste du Québec",
+      "electors2026": 60666,
+      "votes": {
+        "CAQ": 19418,
+        "PLQ": 1875,
+        "QS": 3568,
+        "PQ": 6010,
+        "PCQ": 6287,
+        "Autre": 385
+      },
+      "residuals": {
+        "CAQ": 0.099,
+        "PLQ": -3.004,
+        "QS": -4.572,
+        "PQ": 4.55
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 601,
+      "name": "Les Plaines",
+      "region": "Banlieue de Montréal",
+      "electors2026": 49540,
+      "votes": {
+        "CAQ": 13922,
+        "PLQ": 1895,
+        "QS": 3668,
+        "PQ": 4444,
+        "PCQ": 3333,
+        "Autre": 282
+      },
+      "residuals": {
+        "CAQ": -3.843,
+        "PLQ": 5.764,
+        "QS": 0.164,
+        "PQ": -4.558
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 791,
+      "name": "Lévis",
+      "region": "Québec RMR",
+      "electors2026": 53411,
+      "votes": {
+        "CAQ": 18051,
+        "PLQ": 1899,
+        "QS": 4244,
+        "PQ": 4775,
+        "PCQ": 7677,
+        "Autre": 351
+      },
+      "residuals": {
+        "CAQ": -5.804,
+        "PLQ": 5.586,
+        "QS": 0.497,
+        "PQ": 0.788
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 787,
+      "name": "Lotbinière-Frontenac",
+      "region": "Reste du Québec",
+      "electors2026": 59431,
+      "votes": {
+        "CAQ": 18330,
+        "PLQ": 2483,
+        "QS": 3925,
+        "PQ": 3688,
+        "PCQ": 13503,
+        "Autre": 0
+      },
+      "residuals": {
+        "CAQ": -16.282,
+        "PLQ": -1.751,
+        "QS": 0.913,
+        "PQ": 3.521
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 709,
+      "name": "Louis-Hébert",
+      "region": "Québec RMR",
+      "electors2026": 47996,
+      "votes": {
+        "CAQ": 17803,
+        "PLQ": 3283,
+        "QS": 4537,
+        "PQ": 6228,
+        "PCQ": 5509,
+        "Autre": 350
+      },
+      "residuals": {
+        "CAQ": 5.32,
+        "PLQ": -2.999,
+        "QS": 1.739,
+        "PQ": 2.222
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 251,
+      "name": "Marguerite-Bourgeoys",
+      "region": "Île de Montréal",
+      "electors2026": 52801,
+      "votes": {
+        "CAQ": 6533,
+        "PLQ": 12635,
+        "QS": 2898,
+        "PQ": 1966,
+        "PCQ": 3103,
+        "Autre": 1081
+      },
+      "residuals": {
+        "CAQ": -2.438,
+        "PLQ": -0.141,
+        "QS": -0.949,
+        "PQ": -0.231
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 139,
+      "name": "Marie-Lacoste-Gérin-Lajoie",
+      "region": "Reste du Québec",
+      "electors2026": 46190,
+      "votes": {
+        "CAQ": 14676,
+        "PLQ": 1135,
+        "QS": 4394,
+        "PQ": 5005,
+        "PCQ": 5125,
+        "Autre": 150
+      },
+      "residuals": {
+        "CAQ": 0,
+        "PLQ": 0,
+        "QS": 0,
+        "PQ": 0
+      },
+      "method": "Estimation municipale 2022 pondérée par les électeurs 2026; inertie locale fixée à 0",
+      "coverage": 1.0
+    },
+    {
+      "code": 219,
+      "name": "Marie-Victorin",
+      "region": "Banlieue de Montréal",
+      "electors2026": 44322,
+      "votes": {
+        "CAQ": 9212,
+        "PLQ": 2793,
+        "QS": 6307,
+        "PQ": 6913,
+        "PCQ": 1952,
+        "Autre": 643
+      },
+      "residuals": {
+        "CAQ": 1.552,
+        "PLQ": 1.721,
+        "QS": 1.703,
+        "PQ": -2.949
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 257,
+      "name": "Marquette",
+      "region": "Île de Montréal",
+      "electors2026": 45310,
+      "votes": {
+        "CAQ": 5722,
+        "PLQ": 12255,
+        "QS": 2956,
+        "PQ": 2114,
+        "PCQ": 2395,
+        "Autre": 782
+      },
+      "residuals": {
+        "CAQ": -8.636,
+        "PLQ": 12.211,
+        "QS": -0.659,
+        "PQ": 1.528
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 693,
+      "name": "Maskinongé",
+      "region": "Reste du Québec",
+      "electors2026": 48050,
+      "votes": {
+        "CAQ": 17096,
+        "PLQ": 1619,
+        "QS": 3162,
+        "PQ": 4519,
+        "PCQ": 5131,
+        "Autre": 426
+      },
+      "residuals": {
+        "CAQ": 4.868,
+        "PLQ": -10.058,
+        "QS": -1.158,
+        "PQ": 5.539
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 611,
+      "name": "Masson",
+      "region": "Banlieue de Montréal",
+      "electors2026": 55017,
+      "votes": {
+        "CAQ": 18195,
+        "PLQ": 2723,
+        "QS": 4610,
+        "PQ": 6432,
+        "PCQ": 2972,
+        "Autre": 332
+      },
+      "residuals": {
+        "CAQ": -4.625,
+        "PLQ": 3.721,
+        "QS": 0.332,
+        "PQ": 1.545
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 807,
+      "name": "Matane-Matapédia-Mitis",
+      "region": "Reste du Québec",
+      "electors2026": 46422,
+      "votes": {
+        "CAQ": 5163,
+        "PLQ": 637,
+        "QS": 1450,
+        "PQ": 20057,
+        "PCQ": 2316,
+        "Autre": 123
+      },
+      "residuals": {
+        "CAQ": -0.219,
+        "PLQ": 3.653,
+        "QS": 0.141,
+        "PQ": 2.179
+      },
+      "method": "Profil 2022 hérité de Matane-Matapédia",
+      "coverage": 1.0
+    },
+    {
+      "code": 301,
+      "name": "Maurice-Richard",
+      "region": "Île de Montréal",
+      "electors2026": 45662,
+      "votes": {
+        "CAQ": 8542,
+        "PLQ": 5414,
+        "QS": 10903,
+        "PQ": 4612,
+        "PCQ": 1322,
+        "Autre": 654
+      },
+      "residuals": {
+        "CAQ": 5.3,
+        "PLQ": -3.832,
+        "QS": 6.346,
+        "PQ": -3.218
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 117,
+      "name": "Mégantic",
+      "region": "Reste du Québec",
+      "electors2026": 51718,
+      "votes": {
+        "CAQ": 12973,
+        "PLQ": 1604,
+        "QS": 3592,
+        "PQ": 3588,
+        "PCQ": 6252,
+        "Autre": 89
+      },
+      "residuals": {
+        "CAQ": -7.577,
+        "PLQ": -1.355,
+        "QS": -2.132,
+        "PQ": 4.43
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 313,
+      "name": "Mercier",
+      "region": "Île de Montréal",
+      "electors2026": 44748,
+      "votes": {
+        "CAQ": 2814,
+        "PLQ": 3837,
+        "QS": 14755,
+        "PQ": 3986,
+        "PCQ": 1051,
+        "Autre": 920
+      },
+      "residuals": {
+        "CAQ": 0.134,
+        "PLQ": 4.783,
+        "QS": -1.039,
+        "PQ": 3.687
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 571,
+      "name": "Mille-Îles",
+      "region": "Banlieue de Montréal",
+      "electors2026": 49728,
+      "votes": {
+        "CAQ": 9097,
+        "PLQ": 9522,
+        "QS": 3789,
+        "PQ": 3551,
+        "PCQ": 3105,
+        "Autre": 346
+      },
+      "residuals": {
+        "CAQ": -3.908,
+        "PLQ": 3.449,
+        "QS": 0.814,
+        "PQ": 0.026
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 587,
+      "name": "Mirabel",
+      "region": "Banlieue de Montréal",
+      "electors2026": 54978,
+      "votes": {
+        "CAQ": 21639,
+        "PLQ": 2918,
+        "QS": 6222,
+        "PQ": 7246,
+        "PCQ": 4936,
+        "Autre": 223
+      },
+      "residuals": {
+        "CAQ": -7.693,
+        "PLQ": 4.73,
+        "QS": 0.149,
+        "PQ": 1.686
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 227,
+      "name": "Montarville",
+      "region": "Banlieue de Montréal",
+      "electors2026": 53573,
+      "votes": {
+        "CAQ": 19045,
+        "PLQ": 5090,
+        "QS": 6741,
+        "PQ": 7753,
+        "PCQ": 2124,
+        "Autre": 735
+      },
+      "residuals": {
+        "CAQ": 1.627,
+        "PLQ": -5.214,
+        "QS": 1.055,
+        "PQ": 5.564
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 761,
+      "name": "Montmorency",
+      "region": "Québec RMR",
+      "electors2026": 58018,
+      "votes": {
+        "CAQ": 19124,
+        "PLQ": 1969,
+        "QS": 5100,
+        "PQ": 4773,
+        "PCQ": 11031,
+        "Autre": 329
+      },
+      "residuals": {
+        "CAQ": -2.994,
+        "PLQ": 0.968,
+        "QS": -0.322,
+        "PQ": -1.201
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 297,
+      "name": "Mont-Royal-Outremont",
+      "region": "Île de Montréal",
+      "electors2026": 58352,
+      "votes": {
+        "CAQ": 4677,
+        "PLQ": 11658,
+        "QS": 6008,
+        "PQ": 3385,
+        "PCQ": 3029,
+        "Autre": 872
+      },
+      "residuals": {
+        "CAQ": 0.162,
+        "PLQ": -3.526,
+        "QS": 4.373,
+        "PQ": 0.908
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 261,
+      "name": "Nelligan",
+      "region": "Île de Montréal",
+      "electors2026": 57949,
+      "votes": {
+        "CAQ": 5584,
+        "PLQ": 17454,
+        "QS": 1766,
+        "PQ": 1399,
+        "PCQ": 6075,
+        "Autre": 1268
+      },
+      "residuals": {
+        "CAQ": -2.634,
+        "PLQ": -4.626,
+        "QS": -0.723,
+        "PQ": 0.828
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 151,
+      "name": "Nicolet-Bécancour",
+      "region": "Reste du Québec",
+      "electors2026": 41028,
+      "votes": {
+        "CAQ": 13956,
+        "PLQ": 1406,
+        "QS": 2610,
+        "PQ": 5095,
+        "PCQ": 6595,
+        "Autre": 0
+      },
+      "residuals": {
+        "CAQ": -14.453,
+        "PLQ": 4.946,
+        "QS": -2.5,
+        "PQ": 5.674
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 279,
+      "name": "Notre-Dame-de-Grâce",
+      "region": "Île de Montréal",
+      "electors2026": 46956,
+      "votes": {
+        "CAQ": 1877,
+        "PLQ": 12918,
+        "QS": 3967,
+        "PQ": 1302,
+        "PCQ": 2810,
+        "Autre": 2728
+      },
+      "residuals": {
+        "CAQ": -2.79,
+        "PLQ": -4.06,
+        "QS": 3.193,
+        "PQ": 0.872
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 127,
+      "name": "Orford",
+      "region": "Reste du Québec",
+      "electors2026": 47621,
+      "votes": {
+        "CAQ": 14084,
+        "PLQ": 4917,
+        "QS": 5298,
+        "PQ": 4463,
+        "PCQ": 3921,
+        "Autre": 109
+      },
+      "residuals": {
+        "CAQ": -3.32,
+        "PLQ": 2.822,
+        "QS": -0.671,
+        "PQ": 5.445
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 669,
+      "name": "Papineau",
+      "region": "Banlieue de Montréal",
+      "electors2026": 60571,
+      "votes": {
+        "CAQ": 19791,
+        "PLQ": 3151,
+        "QS": 5164,
+        "PQ": 3834,
+        "PCQ": 4970,
+        "Autre": 554
+      },
+      "residuals": {
+        "CAQ": 2.721,
+        "PLQ": -7.808,
+        "QS": -0.538,
+        "PQ": 2.668
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 217,
+      "name": "Pierre-Laporte",
+      "region": "Banlieue de Montréal",
+      "electors2026": 52851,
+      "votes": {
+        "CAQ": 10361,
+        "PLQ": 9707,
+        "QS": 5968,
+        "PQ": 4108,
+        "PCQ": 2933,
+        "Autre": 610
+      },
+      "residuals": {
+        "CAQ": -0.974,
+        "PLQ": 0.092,
+        "QS": 1.323,
+        "PQ": 1.988
+      },
+      "method": "Profil 2022 hérité de Laporte",
+      "coverage": 1.0
+    },
+    {
+      "code": 341,
+      "name": "Pointe-aux-Trembles",
+      "region": "Île de Montréal",
+      "electors2026": 41365,
+      "votes": {
+        "CAQ": 12156,
+        "PLQ": 2750,
+        "QS": 4084,
+        "PQ": 5265,
+        "PCQ": 1804,
+        "Autre": 436
+      },
+      "residuals": {
+        "CAQ": 4.813,
+        "PLQ": 6.289,
+        "QS": 0.089,
+        "PQ": -11.085
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 657,
+      "name": "Pontiac",
+      "region": "Reste du Québec",
+      "electors2026": 56082,
+      "votes": {
+        "CAQ": 7056,
+        "PLQ": 12477,
+        "QS": 2935,
+        "PQ": 1887,
+        "PCQ": 3593,
+        "Autre": 616
+      },
+      "residuals": {
+        "CAQ": -1.924,
+        "PLQ": 2.571,
+        "QS": 0.576,
+        "PQ": 5.308
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 727,
+      "name": "Portneuf",
+      "region": "Québec RMR",
+      "electors2026": 55874,
+      "votes": {
+        "CAQ": 15412,
+        "PLQ": 916,
+        "QS": 2675,
+        "PQ": 3203,
+        "PCQ": 9675,
+        "Autre": 648
+      },
+      "residuals": {
+        "CAQ": -4.232,
+        "PLQ": -1.146,
+        "QS": -2.432,
+        "PQ": -1.278
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 637,
+      "name": "Prévost",
+      "region": "Banlieue de Montréal",
+      "electors2026": 53145,
+      "votes": {
+        "CAQ": 15903,
+        "PLQ": 2072,
+        "QS": 5196,
+        "PQ": 6737,
+        "PCQ": 4019,
+        "Autre": 474
+      },
+      "residuals": {
+        "CAQ": -3.975,
+        "PLQ": 0.068,
+        "QS": 1.851,
+        "PQ": -1.865
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 817,
+      "name": "René-Lévesque",
+      "region": "Reste du Québec",
+      "electors2026": 31966,
+      "votes": {
+        "CAQ": 11377,
+        "PLQ": 307,
+        "QS": 1459,
+        "PQ": 4087,
+        "PCQ": 1955,
+        "Autre": 124
+      },
+      "residuals": {
+        "CAQ": 18.994,
+        "PLQ": 1.58,
+        "QS": -1.611,
+        "PQ": -16.842
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 617,
+      "name": "Repentigny",
+      "region": "Banlieue de Montréal",
+      "electors2026": 56379,
+      "votes": {
+        "CAQ": 19747,
+        "PLQ": 3758,
+        "QS": 4783,
+        "PQ": 6686,
+        "PCQ": 2419,
+        "Autre": 321
+      },
+      "residuals": {
+        "CAQ": -0.552,
+        "PLQ": 3.186,
+        "QS": -1.491,
+        "PQ": 1.958
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 241,
+      "name": "Richelieu",
+      "region": "Banlieue de Montréal",
+      "electors2026": 54021,
+      "votes": {
+        "CAQ": 17098,
+        "PLQ": 1262,
+        "QS": 3084,
+        "PQ": 6204,
+        "PCQ": 2697,
+        "Autre": 247
+      },
+      "residuals": {
+        "CAQ": 2.925,
+        "PLQ": -0.263,
+        "QS": -2.6,
+        "PQ": 0.252
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 137,
+      "name": "Richmond",
+      "region": "Reste du Québec",
+      "electors2026": 58966,
+      "votes": {
+        "CAQ": 21255,
+        "PLQ": 2476,
+        "QS": 9031,
+        "PQ": 5803,
+        "PCQ": 6683,
+        "Autre": 217
+      },
+      "residuals": {
+        "CAQ": 0.892,
+        "PLQ": -1.589,
+        "QS": 2.007,
+        "PQ": -0.863
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 803,
+      "name": "Rimouski",
+      "region": "Reste du Québec",
+      "electors2026": 46343,
+      "votes": {
+        "CAQ": 13761,
+        "PLQ": 992,
+        "QS": 7042,
+        "PQ": 9440,
+        "PCQ": 1566,
+        "Autre": 159
+      },
+      "residuals": {
+        "CAQ": 10.635,
+        "PLQ": 3.456,
+        "QS": 4.981,
+        "PQ": -11.072
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 801,
+      "name": "Rivière-du-Loup–Témiscouata–Les Basques",
+      "region": "Reste du Québec",
+      "electors2026": 51933,
+      "votes": {
+        "CAQ": 18183,
+        "PLQ": 1388,
+        "QS": 5102,
+        "PQ": 6141,
+        "PCQ": 3937,
+        "Autre": 174
+      },
+      "residuals": {
+        "CAQ": 6.67,
+        "PLQ": -16.705,
+        "QS": 4.623,
+        "PQ": 6.547
+      },
+      "method": "Profil 2022 hérité de Rivière-du-Loup-Témiscouata",
+      "coverage": 1.0
+    },
+    {
+      "code": 267,
+      "name": "Robert-Baldwin",
+      "region": "Île de Montréal",
+      "electors2026": 54871,
+      "votes": {
+        "CAQ": 2909,
+        "PLQ": 17228,
+        "QS": 1498,
+        "PQ": 776,
+        "PCQ": 6010,
+        "Autre": 1406
+      },
+      "residuals": {
+        "CAQ": -3.681,
+        "PLQ": -7.628,
+        "QS": 0.222,
+        "PQ": 0.574
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 829,
+      "name": "Roberval",
+      "region": "Reste du Québec",
+      "electors2026": 44510,
+      "votes": {
+        "CAQ": 15017,
+        "PLQ": 1217,
+        "QS": 1826,
+        "PQ": 5488,
+        "PCQ": 3038,
+        "Autre": 141
+      },
+      "residuals": {
+        "CAQ": 25.812,
+        "PLQ": -25.124,
+        "QS": -2.822,
+        "PQ": 5.723
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 319,
+      "name": "Rosemont",
+      "region": "Île de Montréal",
+      "electors2026": 51659,
+      "votes": {
+        "CAQ": 8157,
+        "PLQ": 4170,
+        "QS": 13311,
+        "PQ": 7527,
+        "PCQ": 1605,
+        "Autre": 610
+      },
+      "residuals": {
+        "CAQ": 5.385,
+        "PLQ": 3.479,
+        "QS": 1.91,
+        "PQ": -5.908
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 631,
+      "name": "Rousseau",
+      "region": "Banlieue de Montréal",
+      "electors2026": 49265,
+      "votes": {
+        "CAQ": 14117,
+        "PLQ": 963,
+        "QS": 3667,
+        "PQ": 4985,
+        "PCQ": 4180,
+        "Autre": 0
+      },
+      "residuals": {
+        "CAQ": -5.835,
+        "PLQ": 5.117,
+        "QS": 0.843,
+        "PQ": -5.477
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 671,
+      "name": "Rouyn-Noranda-Témiscamingue",
+      "region": "Reste du Québec",
+      "electors2026": 44427,
+      "votes": {
+        "CAQ": 12975,
+        "PLQ": 1255,
+        "QS": 8890,
+        "PQ": 3232,
+        "PCQ": 2202,
+        "Autre": 178
+      },
+      "residuals": {
+        "CAQ": 8.609,
+        "PLQ": 0.759,
+        "QS": -0.095,
+        "PQ": -2.852
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 119,
+      "name": "Saint-François",
+      "region": "Reste du Québec",
+      "electors2026": 54720,
+      "votes": {
+        "CAQ": 17280,
+        "PLQ": 3220,
+        "QS": 11491,
+        "PQ": 3712,
+        "PCQ": 4768,
+        "Autre": 257
+      },
+      "residuals": {
+        "CAQ": 1.483,
+        "PLQ": -2.617,
+        "QS": 6.574,
+        "PQ": -2.864
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 281,
+      "name": "Saint-Henri-Sainte-Anne",
+      "region": "Île de Montréal",
+      "electors2026": 59379,
+      "votes": {
+        "CAQ": 5751,
+        "PLQ": 11728,
+        "QS": 8992,
+        "PQ": 2683,
+        "PCQ": 2063,
+        "Autre": 1223
+      },
+      "residuals": {
+        "CAQ": -3.06,
+        "PLQ": 6.561,
+        "QS": 3.421,
+        "PQ": -1.955
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 239,
+      "name": "Saint-Hyacinthe",
+      "region": "Reste du Québec",
+      "electors2026": 55483,
+      "votes": {
+        "CAQ": 22487,
+        "PLQ": 1705,
+        "QS": 5636,
+        "PQ": 6900,
+        "PCQ": 4066,
+        "Autre": 527
+      },
+      "residuals": {
+        "CAQ": -3.794,
+        "PLQ": 2.8,
+        "QS": -2.039,
+        "PQ": 4.927
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 167,
+      "name": "Saint-Jean",
+      "region": "Banlieue de Montréal",
+      "electors2026": 61288,
+      "votes": {
+        "CAQ": 21734,
+        "PLQ": 2565,
+        "QS": 6334,
+        "PQ": 8248,
+        "PCQ": 3603,
+        "Autre": 423
+      },
+      "residuals": {
+        "CAQ": 7.982,
+        "PLQ": 1.232,
+        "QS": 1.026,
+        "PQ": -8.746
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 597,
+      "name": "Saint-Jérôme",
+      "region": "Reste du Québec",
+      "electors2026": 45854,
+      "votes": {
+        "CAQ": 20527,
+        "PLQ": 1858,
+        "QS": 6411,
+        "PQ": 7727,
+        "PCQ": 3998,
+        "Autre": 517
+      },
+      "residuals": {
+        "CAQ": 0.067,
+        "PLQ": 8.333,
+        "QS": 0.813,
+        "PQ": -4.384
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 271,
+      "name": "Saint-Laurent",
+      "region": "Île de Montréal",
+      "electors2026": 59166,
+      "votes": {
+        "CAQ": 4091,
+        "PLQ": 14304,
+        "QS": 2840,
+        "PQ": 1696,
+        "PCQ": 4506,
+        "Autre": 1191
+      },
+      "residuals": {
+        "CAQ": -2.978,
+        "PLQ": -3.534,
+        "QS": 0.837,
+        "PQ": 0.697
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 287,
+      "name": "Sainte-Marie-Saint-Jacques",
+      "region": "Île de Montréal",
+      "electors2026": 42197,
+      "votes": {
+        "CAQ": 3268,
+        "PLQ": 3621,
+        "QS": 10892,
+        "PQ": 3362,
+        "PCQ": 1138,
+        "Autre": 560
+      },
+      "residuals": {
+        "CAQ": 1.202,
+        "PLQ": 3.167,
+        "QS": -2.057,
+        "PQ": 1.977
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 359,
+      "name": "Sainte-Rose",
+      "region": "Banlieue de Montréal",
+      "electors2026": 57850,
+      "votes": {
+        "CAQ": 14091,
+        "PLQ": 8778,
+        "QS": 5243,
+        "PQ": 4536,
+        "PCQ": 3429,
+        "Autre": 523
+      },
+      "residuals": {
+        "CAQ": -1.516,
+        "PLQ": 0.754,
+        "QS": 1.148,
+        "PQ": 0.913
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 197,
+      "name": "Sanguinet",
+      "region": "Banlieue de Montréal",
+      "electors2026": 45171,
+      "votes": {
+        "CAQ": 14607,
+        "PLQ": 2952,
+        "QS": 3925,
+        "PQ": 4882,
+        "PCQ": 3164,
+        "Autre": 414
+      },
+      "residuals": {
+        "CAQ": 2.07,
+        "PLQ": 2.771,
+        "QS": -0.909,
+        "PQ": -5.452
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 121,
+      "name": "Sherbrooke",
+      "region": "Reste du Québec",
+      "electors2026": 53186,
+      "votes": {
+        "CAQ": 13076,
+        "PLQ": 2166,
+        "QS": 15548,
+        "PQ": 3373,
+        "PCQ": 2501,
+        "Autre": 434
+      },
+      "residuals": {
+        "CAQ": 5.647,
+        "PLQ": -6.054,
+        "QS": 8.681,
+        "PQ": -1.291
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 181,
+      "name": "Soulanges",
+      "region": "Banlieue de Montréal",
+      "electors2026": 58695,
+      "votes": {
+        "CAQ": 17114,
+        "PLQ": 8761,
+        "QS": 4353,
+        "PQ": 4124,
+        "PCQ": 5006,
+        "Autre": 795
+      },
+      "residuals": {
+        "CAQ": 0.219,
+        "PLQ": -5.032,
+        "QS": -0.011,
+        "PQ": 3.035
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 221,
+      "name": "Taillon",
+      "region": "Banlieue de Montréal",
+      "electors2026": 52001,
+      "votes": {
+        "CAQ": 14635,
+        "PLQ": 4096,
+        "QS": 6663,
+        "PQ": 7160,
+        "PCQ": 2280,
+        "Autre": 422
+      },
+      "residuals": {
+        "CAQ": 4.58,
+        "PLQ": 1.77,
+        "QS": 1.921,
+        "PQ": -4.758
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 751,
+      "name": "Taschereau",
+      "region": "Québec RMR",
+      "electors2026": 47993,
+      "votes": {
+        "CAQ": 7537,
+        "PLQ": 2025,
+        "QS": 13588,
+        "PQ": 7757,
+        "PCQ": 3012,
+        "Autre": 451
+      },
+      "residuals": {
+        "CAQ": 5.648,
+        "PLQ": 3.142,
+        "QS": -2.216,
+        "PQ": 3.062
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 609,
+      "name": "Terrebonne",
+      "region": "Banlieue de Montréal",
+      "electors2026": 55051,
+      "votes": {
+        "CAQ": 20911,
+        "PLQ": 4301,
+        "QS": 5352,
+        "PQ": 7986,
+        "PCQ": 3357,
+        "Autre": 388
+      },
+      "residuals": {
+        "CAQ": 3.304,
+        "PLQ": 4.938,
+        "QS": 0.497,
+        "PQ": -7.59
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 691,
+      "name": "Trois-Rivières",
+      "region": "Reste du Québec",
+      "electors2026": 53826,
+      "votes": {
+        "CAQ": 18859,
+        "PLQ": 2056,
+        "QS": 6069,
+        "PQ": 5323,
+        "PCQ": 4552,
+        "Autre": 256
+      },
+      "residuals": {
+        "CAQ": 3.524,
+        "PLQ": -4.525,
+        "QS": 0.21,
+        "PQ": 3.118
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 831,
+      "name": "Ungava",
+      "region": "Reste du Québec",
+      "electors2026": 31748,
+      "votes": {
+        "CAQ": 3132,
+        "PLQ": 1571,
+        "QS": 2092,
+        "PQ": 1084,
+        "PCQ": 756,
+        "Autre": 0
+      },
+      "residuals": {
+        "CAQ": 3.55,
+        "PLQ": 6.054,
+        "QS": 8.736,
+        "PQ": -9.205
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 211,
+      "name": "Vachon",
+      "region": "Reste du Québec",
+      "electors2026": 53824,
+      "votes": {
+        "CAQ": 15984,
+        "PLQ": 5718,
+        "QS": 5343,
+        "PQ": 4757,
+        "PCQ": 3166,
+        "Autre": 621
+      },
+      "residuals": {
+        "CAQ": -4.913,
+        "PLQ": 7.812,
+        "QS": 1.559,
+        "PQ": 0.535
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 749,
+      "name": "Vanier-Les Rivières",
+      "region": "Québec RMR",
+      "electors2026": 59090,
+      "votes": {
+        "CAQ": 20812,
+        "PLQ": 2760,
+        "QS": 5337,
+        "PQ": 5741,
+        "PCQ": 8572,
+        "Autre": 696
+      },
+      "residuals": {
+        "CAQ": 4.982,
+        "PLQ": -4.359,
+        "QS": 0.707,
+        "PQ": 1.262
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 187,
+      "name": "Vaudreuil",
+      "region": "Banlieue de Montréal",
+      "electors2026": 62075,
+      "votes": {
+        "CAQ": 13032,
+        "PLQ": 13608,
+        "QS": 3671,
+        "PQ": 3061,
+        "PCQ": 5345,
+        "Autre": 1048
+      },
+      "residuals": {
+        "CAQ": -3.032,
+        "PLQ": 1.19,
+        "QS": -0.113,
+        "PQ": 0.664
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 231,
+      "name": "Verchères",
+      "region": "Banlieue de Montréal",
+      "electors2026": 56237,
+      "votes": {
+        "CAQ": 23672,
+        "PLQ": 2438,
+        "QS": 6665,
+        "PQ": 9561,
+        "PCQ": 3269,
+        "Autre": 556
+      },
+      "residuals": {
+        "CAQ": 10.621,
+        "PLQ": 3.351,
+        "QS": 0.379,
+        "PQ": -11.941
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 247,
+      "name": "Verdun",
+      "region": "Île de Montréal",
+      "electors2026": 49379,
+      "votes": {
+        "CAQ": 7150,
+        "PLQ": 9101,
+        "QS": 9562,
+        "PQ": 2591,
+        "PCQ": 1965,
+        "Autre": 724
+      },
+      "residuals": {
+        "CAQ": 0.509,
+        "PLQ": 2.228,
+        "QS": 6.335,
+        "PQ": -3.042
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 321,
+      "name": "Viau",
+      "region": "Île de Montréal",
+      "electors2026": 39247,
+      "votes": {
+        "CAQ": 3201,
+        "PLQ": 8049,
+        "QS": 6418,
+        "PQ": 1598,
+        "PCQ": 1294,
+        "Autre": 522
+      },
+      "residuals": {
+        "CAQ": -2.657,
+        "PLQ": 0.012,
+        "QS": 5.651,
+        "PQ": 0.512
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    },
+    {
+      "code": 569,
+      "name": "Vimont-Auteuil",
+      "region": "Banlieue de Montréal",
+      "electors2026": 46794,
+      "votes": {
+        "CAQ": 10957,
+        "PLQ": 9541,
+        "QS": 3669,
+        "PQ": 3379,
+        "PCQ": 4118,
+        "Autre": 301
+      },
+      "residuals": {
+        "CAQ": -3.766,
+        "PLQ": 0.053,
+        "QS": 0.664,
+        "PQ": 1.2
+      },
+      "method": "Profil 2022 hérité de Vimont",
+      "coverage": 1.0
+    },
+    {
+      "code": 291,
+      "name": "Westmount-Saint-Louis",
+      "region": "Île de Montréal",
+      "electors2026": 52383,
+      "votes": {
+        "CAQ": 2112,
+        "PLQ": 10576,
+        "QS": 2687,
+        "PQ": 1267,
+        "PCQ": 2959,
+        "Autre": 1351
+      },
+      "residuals": {
+        "CAQ": -1.708,
+        "PLQ": -7.77,
+        "QS": 2.107,
+        "PQ": 2.226
+      },
+      "method": "Profil 2022 de la circonscription correspondante",
+      "coverage": 1.0
+    }
+  ],
+  "regionCounts": {
+    "Reste du Québec": 46,
+    "Île de Montréal": 28,
+    "Banlieue de Montréal": 40,
+    "Québec RMR": 13
+  },
+  "sourceWorkbook": "ModeleVivantQC125_v3_synopsis_24aout.xlsx"
+}

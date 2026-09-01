@@ -1,0 +1,341 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>:root{color-scheme:light dark}body{margin:0}img{max-width:100%}</style><title>Tendances Québec 2026</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+:root{
+  --paper:#fbfbfc; --card:#ffffff; --ink:#191d24; --ink-2:#4a525e; --muted:#69727f;
+  --rule:#e3e6ea; --rule-soft:#eef0f3; --grid:#e8ebef;
+  --pq:#2a78d6; --caq:#1baf7a; --plq:#c62828; --qs:#f2900d; --pcq:#8e44ad;
+  --mark:#9aa3b0;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#12151a; --card:#181c22; --ink:#eef1f5; --ink-2:#b6bec9; --muted:#8b95a2;
+  --rule:#2a3038; --rule-soft:#232830; --grid:#252b33;
+  --pq:#5c9bee; --caq:#2fc78e; --plq:#e35b5b; --qs:#f7ab3d; --pcq:#b072d6;
+  --mark:#79828f;
+}}
+:root[data-theme="dark"]{
+  --paper:#12151a; --card:#181c22; --ink:#eef1f5; --ink-2:#b6bec9; --muted:#8b95a2;
+  --rule:#2a3038; --rule-soft:#232830; --grid:#252b33;
+  --pq:#5c9bee; --caq:#2fc78e; --plq:#e35b5b; --qs:#f7ab3d; --pcq:#b072d6;
+  --mark:#79828f;
+}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;margin:0;line-height:1.55;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding:34px 22px 64px}
+header{border-bottom:1px solid var(--rule);padding-bottom:20px;margin-bottom:22px}
+.eyebrow{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
+h1{font-family:"Source Serif 4",Georgia,serif;font-weight:600;font-size:clamp(27px,4.2vw,40px);line-height:1.12;margin:0 0 10px;text-wrap:balance;letter-spacing:-.01em}
+.sub{color:var(--ink-2);margin:0;max-width:64ch;font-size:15px}
+.stats{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 8px}
+.stat{flex:1 1 150px;background:var(--card);border:1px solid var(--rule);border-radius:9px;padding:11px 13px;border-top:3px solid var(--c)}
+.stat .p{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 3px}
+.stat .v{font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;font-size:25px;font-weight:500;line-height:1.1;color:var(--ink)}
+.stat .d{font-family:"IBM Plex Mono",monospace;font-size:12px;font-variant-numeric:tabular-nums;color:var(--ink-2);margin-top:2px}
+.chartbox{background:var(--card);border:1px solid var(--rule);border-radius:11px;padding:16px 12px 8px;margin-top:16px;position:relative}
+.chartscroll{overflow-x:auto}
+svg{display:block;width:100%;height:auto;min-width:560px}
+@media (max-width:640px){svg{min-width:0}.wrap{padding:26px 14px 48px}.stat{flex:1 1 100%}}
+.tip{position:absolute;pointer-events:none;background:var(--card);border:1px solid var(--rule);border-radius:8px;padding:9px 11px;font-size:12.5px;box-shadow:0 6px 22px rgba(0,0,0,.13);opacity:0;transition:opacity .12s;z-index:5;min-width:158px}
+.tip .td{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted);letter-spacing:.05em;margin-bottom:5px}
+.tip .row{display:flex;align-items:center;gap:7px;font-variant-numeric:tabular-nums}
+.tip .row b{margin-left:auto;font-family:"IBM Plex Mono",monospace;font-weight:500}
+.sw{width:9px;height:9px;border-radius:2px;flex:none}
+.bar{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin:14px 0 2px;font-size:13px}
+.legend{display:flex;flex-wrap:wrap;gap:13px}
+.lg{display:flex;align-items:center;gap:6px;color:var(--ink-2)}
+label.tg{display:flex;align-items:center;gap:8px;color:var(--ink-2);cursor:pointer;margin-left:auto;min-height:44px;padding:0 4px}
+label.tg input{width:18px;height:18px;cursor:pointer}
+h2{font-family:"Source Serif 4",Georgia,serif;font-size:20px;font-weight:600;margin:34px 0 10px}
+p{color:var(--ink-2);font-size:14.5px;max-width:70ch}
+table{border-collapse:collapse;width:100%;font-size:13px;font-variant-numeric:tabular-nums}
+th,td{text-align:right;padding:7px 9px;border-bottom:1px solid var(--rule-soft)}
+th:first-child,td:first-child{text-align:left}
+thead th{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--rule)}
+td.f{color:var(--ink-2)}
+.tablescroll{overflow-x:auto;border:1px solid var(--rule);border-radius:9px;background:var(--card);padding:2px 10px 6px}
+.note{border-left:2px solid var(--rule);padding-left:15px;margin-top:12px}
+.note b{color:var(--ink)}
+footer{margin-top:38px;padding-top:16px;border-top:1px solid var(--rule);font-size:12.5px;color:var(--muted)}
+
+.seatbox{background:var(--card);border:1px solid var(--rule);border-radius:11px;padding:18px 14px 10px;margin-top:14px}
+.seatbox svg{min-width:520px}
+.scen{width:100%;font-size:13px;font-variant-numeric:tabular-nums;border-collapse:collapse;margin-top:4px}
+.scen th,.scen td{text-align:right;padding:6px 9px;border-bottom:1px solid var(--rule-soft)}
+.scen th:first-child,.scen td:first-child{text-align:left}
+.scen thead th{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--rule)}
+.scen td.lab{color:var(--ink-2)}
+.frac{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px;margin-top:14px}
+.fr{background:var(--card);border:1px solid var(--rule);border-radius:10px;padding:15px 17px}
+.fr h3{font-family:"Source Serif 4",Georgia,serif;font-size:16px;font-weight:600;margin:0 0 4px;color:var(--ink)}
+.fr .k{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin:0 0 9px}
+.fr p{font-size:14px;margin:0 0 9px}
+.fr table{font-size:12.5px;margin-top:2px}
+.fr td,.fr th{padding:4px 7px}
+.fr .moy{color:var(--muted);font-style:italic}
+.fr tbody tr.sep td{border-top:1px solid var(--rule);padding-top:7px}
+.punch{background:var(--card);border:1px solid var(--rule);border-left:3px solid var(--caq);border-radius:10px;padding:13px 16px;margin-top:12px}
+.punch p{margin:0;font-size:14px}
+.punch b{color:var(--ink)}
+.warn{border-left:2px solid var(--qs);padding-left:15px;margin-top:14px}
+.warn b{color:var(--ink)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+</head><body><div class="wrap">
+<header>
+  <p class="eyebrow">Sondages provinciaux · lissage local · 1er septembre 2026</p>
+  <h1>Tendances Québec&nbsp;2026</h1>
+  <p class="sub">La CAQ a regagné une quinzaine de points depuis son creux de mars et vient de dépasser le PLQ. Le PQ reste en tête, mais s'effrite depuis décembre. À cinq semaines du scrutin, aucun scénario ne donne de majorité à personne.</p>
+  <p class="sub" style="margin-top:9px;font-size:14px">Trente-six sondages depuis août 2025, lissés par régression locale. Ce sont les <em>courbes</em> qui portent l'information, pas les points : l'écart entre deux sondages voisins mesure surtout le bruit d'échantillonnage.</p>
+</header>
+
+<div class="stats" id="stats"></div>
+
+<div class="chartbox">
+  <div class="chartscroll"><svg id="c" viewBox="0 0 1000 470" role="img" aria-label="Courbes lissées des intentions de vote par parti, août 2025 à août 2026"></svg></div>
+  <div class="tip" id="tip"></div>
+</div>
+
+<div class="bar">
+  <div class="legend" id="lg"></div>
+  <label class="tg"><input type="checkbox" id="pts" checked> Afficher les sondages individuels</label>
+</div>
+
+<h2>Ce que la courbe dit</h2>
+<p><b>La remontée caquiste est réelle, et elle ralentit.</b> En août, trois firmes ont sondé deux fois chacune : Pallas mesure la CAQ à +5 entre ses deux vagues, Léger à +3, Synopsis à +7. Aucune de ces trois mesures n'est concluante seule — l'incertitude sur un écart est plus grande que sur un niveau. Mais trois maisons indépendantes qui pointent dans le même sens, ça l'est. La pente est passée de +6,6 à +5,7 points par tranche de trente jours avec le dernier sondage : le mouvement continue, moins vite.</p>
+<p><b>Le PLQ perd exactement ce que la CAQ gagne</b>, à un rythme presque symétrique depuis avril. Les deux courbes se croisent à quelques jours du déclenchement de la campagne.</p>
+<p><b>Le PQ ne s'effondre pas, il s'érode.</b> De 39 % en décembre à moins de 29 % aujourd'hui, sans décrochage : une pente lente et continue, ce qui est une information très différente d'une chute. Il demeure premier chez les francophones, où se joue l'essentiel des circonscriptions.</p>
+
+<p><b>Le PCQ, lui, n'a pas bougé de l'année.</b> Pendant que la CAQ passait de 9 à 25 % et le PLQ faisait le trajet inverse, le parti d'Éric Duhaime est resté entre 14 et 15,5 % de novembre à aujourd'hui. Cette immobilité est sa force : dans un champ où tout se déplace, il conserve ses appuis exactement là où ils sont concentrés. Et c'est hors de son bastion qu'il progresse le plus vite en ce moment — +3,4 points par tranche de trente jours dans le reste du Québec, contre une stabilité dans la région de la Capitale.</p>
+
+<h2>Et en sièges ?</h2>
+<p>Les intentions de vote se traduisent en sièges par circonscription, sur la carte de 127 circonscriptions en vigueur depuis juin 2026. La barre montre le scénario central&nbsp;; les traits sous les partis donnent l'étendue des six scénarios du modèle.</p>
+<p>Le sixième scénario est récent&nbsp;: il tient compte de la composition linguistique de chaque circonscription, la langue expliquant 91&nbsp;% de l'écart du vote libéral d'une circonscription à l'autre. Il abaisse le plancher du PLQ de 32 à 28 sièges. Le scénario affiché dans la barre reste le scénario de base, plus ancien et plus éprouvé.</p>
+
+<div class="seatbox">
+  <div class="chartscroll"><svg id="s" viewBox="0 0 1000 286" role="img" aria-label="Composition projetée de l'Assemblée nationale et étendue des scénarios"></svg></div>
+</div>
+
+<div class="tablescroll" style="margin-top:14px"><table class="scen" id="ts"></table></div>
+
+<div class="warn">
+<p><b>Aucun des six scénarios ne donne de majorité.</b> Il faut 64 sièges sur 127 pour gouverner seul&nbsp;; le meilleur résultat projeté en atteint 57. Un gouvernement minoritaire est l'issue que le modèle décrit aujourd'hui.</p>
+<p><b>Ces chiffres bougent beaucoup pour peu.</b> Dix circonscriptions se jouent actuellement à moins de cinq points d'écart. Un déplacement de deux points d'intentions de vote peut en déplacer des dizaines d'un coup — la traduction votes-sièges n'a rien de proportionnel. Un décompte de sièges se cite avec cet avertissement, ou ne se cite pas.</p>
+</div>
+
+<h2>Deux fractures que la moyenne nationale cache</h2>
+<p>Un pourcentage provincial ne dit pas qui gagne où. Deux lignes de partage font l'essentiel du travail, et aucune n'est visible sur la courbe ci-dessus. Ce sont elles qui expliquent pourquoi deux modèles partant des mêmes intentions de vote peuvent arriver à des résultats très différents.</p>
+
+<div class="frac">
+  <div class="fr">
+    <p class="k">Géographie</p>
+    <h3>La moyenne montréalaise ne décrit personne</h3>
+    <p>La plupart des sondages publient un seul chiffre pour « Montréal&nbsp;». Il mélange l'Île et le 450, deux électorats qui votent presque à l'opposé — 47&nbsp;% de francophones d'un côté, 86&nbsp;% de l'autre.</p>
+    <table><thead><tr><th></th><th>Île</th><th>450</th><th class="moy">Moyenne</th></tr></thead><tbody>
+      <tr><td>CAQ</td><td>14</td><td><b>30</b></td><td class="moy">23</td></tr>
+      <tr><td>PLQ</td><td><b>35</b></td><td>20</td><td class="moy">29</td></tr>
+      <tr><td>PQ</td><td>22</td><td><b>32</b></td><td class="moy">26</td></tr>
+      <tr><td>QS</td><td><b>15</b></td><td>6</td><td class="moy">10</td></tr>
+      <tr><td>PCQ</td><td>12</td><td>11</td><td class="moy">12</td></tr>
+    </tbody></table>
+    <p style="margin-top:10px">La colonne grise est celle que publient les sondages. Pour la CAQ, elle annonce 23&nbsp;% — un score qu'elle ne fait ni sur l'Île, ni en banlieue.</p>
+  </div>
+  <div class="fr">
+    <p class="k">Langue</p>
+    <h3>Le clivage le plus fort du paysage</h3>
+    <p>Intentions de vote au 1<sup>er</sup> septembre, chez les francophones et chez les autres. En 2022, la seule proportion de francophones expliquait <b>91 % de l'écart du vote libéral</b> d'une circonscription à l'autre — mais 1 % de celui de QS, dont la force est géographique.</p>
+    <table><thead><tr><th></th><th>Franco.</th><th>Non-franco.</th></tr></thead><tbody>
+      <tr><td>PQ</td><td><b>34,5</b></td><td>10,1</td></tr>
+      <tr><td>CAQ</td><td>28,7</td><td>13,5</td></tr>
+      <tr><td>PCQ</td><td>14,7</td><td>18,3</td></tr>
+      <tr><td>PLQ</td><td>12,1</td><td><b>48,5</b></td></tr>
+      <tr><td>QS</td><td>9,0</td><td>8,5</td></tr>
+    </tbody></table>
+  </div>
+</div>
+
+<div class="punch"><p><b>Ce que ça change : quatorze circonscriptions sur soixante-huit.</b> Distinguer l'Île de sa banlieue plutôt que leur appliquer la même moyenne fait basculer quatorze sièges. Sur l'Île, la moyenne écrase Québec solidaire — 10&nbsp;% au lieu de 15 — et lui coûte cinq circonscriptions : Gouin, Mercier, Hochelaga-Maisonneuve, Laurier-Dorion et Sainte-Marie-Saint-Jacques. En banlieue, elle sous-estime la CAQ de sept points et lui en coûte six autres, dont Blainville, Beauharnois et La Prairie.</p></div>
+
+<h2>D'ici le 5 octobre</h2>
+<p>Cette page décrit le présent. Elle ne prévoit pas le scrutin, et la distinction n'est pas une coquetterie : il reste cinq semaines de campagne, et rien de ce qui n'est pas encore arrivé n'est dans le modèle. Trois choses à surveiller.</p>
+<p><b>La CAQ est dans sa zone de bascule.</b> Entre 25 et 30 %, chaque point supplémentaire lui rapporte beaucoup plus de sièges que le précédent. C'est là qu'elle se trouve, et c'est ce qui rend la projection instable.</p>
+<p><b>Le PCQ tient la région de Québec sans y avoir progressé.</b> Il y récolte 28 %, à peu près ce qu'il y récoltait en novembre. S'il y est passé premier, c'est que le PQ s'y est effondré — de 37 à 27 % — pendant que la CAQ y doublait, de 14 à 27 %. Il n'a pas gagné la région : il a été le seul à ne pas la perdre. Ses neuf sièges projetés se répartissent entre cinq circonscriptions de la RMR de Québec — Chauveau, La Peltrie, Portneuf, Montmorency, Chutes-de-la-Chaudière — et quatre de Chaudière-Appalaches, où le grand sondage régional de Léger le donne à 36 %. Il termine deuxième dans dix-sept autres.</p>
+<p><b>Dix circonscriptions se jouent à moins de cinq points.</b> Elles suffisent à faire passer un gouvernement de minoritaire fragile à minoritaire confortable — ou l'inverse.</p>
+
+<h2>Les données</h2>
+<p>Valeurs lissées au premier de chaque mois, et les cinq sondages les plus récents. Le lissage pondère chaque sondage selon sa proximité dans le temps et la taille de son échantillon.</p>
+<div class="tablescroll"><table id="tb"></table></div>
+
+<footer>Mise à jour du 1er septembre 2026 : Léger/Le Journal/TVA, terrain du 28 au 31 août, n=1 008 (882 décidés). Sources : rapports des firmes (Léger, Synopsis Recherche, Pallas Data, Mainstreet, Angus Reid, Innovative, Liaison) et série compilée sur qc125.com. Lissage : régression linéaire locale, fenêtre gaussienne de 25 jours, pondération par la racine de la taille d'échantillon. La méthode — suivre l'évolution plutôt que commenter la dernière vague — est celle qu'emploie la sociologue Claire Durand. Le guide de lecture complet accompagne le modèle.</footer>
+</div>
+
+<script>
+const D = {"grid": ["2025-08-17", "2025-08-19", "2025-08-21", "2025-08-23", "2025-08-25", "2025-08-27", "2025-08-29", "2025-08-31", "2025-09-02", "2025-09-04", "2025-09-06", "2025-09-08", "2025-09-10", "2025-09-12", "2025-09-14", "2025-09-16", "2025-09-18", "2025-09-20", "2025-09-22", "2025-09-24", "2025-09-26", "2025-09-28", "2025-09-30", "2025-10-02", "2025-10-04", "2025-10-06", "2025-10-08", "2025-10-10", "2025-10-12", "2025-10-14", "2025-10-16", "2025-10-18", "2025-10-20", "2025-10-22", "2025-10-24", "2025-10-26", "2025-10-28", "2025-10-30", "2025-11-01", "2025-11-03", "2025-11-05", "2025-11-07", "2025-11-09", "2025-11-11", "2025-11-13", "2025-11-15", "2025-11-17", "2025-11-19", "2025-11-21", "2025-11-23", "2025-11-25", "2025-11-27", "2025-11-29", "2025-12-01", "2025-12-03", "2025-12-05", "2025-12-07", "2025-12-09", "2025-12-11", "2025-12-13", "2025-12-15", "2025-12-17", "2025-12-19", "2025-12-21", "2025-12-23", "2025-12-25", "2025-12-27", "2025-12-29", "2025-12-31", "2026-01-02", "2026-01-04", "2026-01-06", "2026-01-08", "2026-01-10", "2026-01-12", "2026-01-14", "2026-01-16", "2026-01-18", "2026-01-20", "2026-01-22", "2026-01-24", "2026-01-26", "2026-01-28", "2026-01-30", "2026-02-01", "2026-02-03", "2026-02-05", "2026-02-07", "2026-02-09", "2026-02-11", "2026-02-13", "2026-02-15", "2026-02-17", "2026-02-19", "2026-02-21", "2026-02-23", "2026-02-25", "2026-02-27", "2026-03-01", "2026-03-03", "2026-03-05", "2026-03-07", "2026-03-09", "2026-03-11", "2026-03-13", "2026-03-15", "2026-03-17", "2026-03-19", "2026-03-21", "2026-03-23", "2026-03-25", "2026-03-27", "2026-03-29", "2026-03-31", "2026-04-02", "2026-04-04", "2026-04-06", "2026-04-08", "2026-04-10", "2026-04-12", "2026-04-14", "2026-04-16", "2026-04-18", "2026-04-20", "2026-04-22", "2026-04-24", "2026-04-26", "2026-04-28", "2026-04-30", "2026-05-02", "2026-05-04", "2026-05-06", "2026-05-08", "2026-05-10", "2026-05-12", "2026-05-14", "2026-05-16", "2026-05-18", "2026-05-20", "2026-05-22", "2026-05-24", "2026-05-26", "2026-05-28", "2026-05-30", "2026-06-01", "2026-06-03", "2026-06-05", "2026-06-07", "2026-06-09", "2026-06-11", "2026-06-13", "2026-06-15", "2026-06-17", "2026-06-19", "2026-06-21", "2026-06-23", "2026-06-25", "2026-06-27", "2026-06-29", "2026-07-01", "2026-07-03", "2026-07-05", "2026-07-07", "2026-07-09", "2026-07-11", "2026-07-13", "2026-07-15", "2026-07-17", "2026-07-19", "2026-07-21", "2026-07-23", "2026-07-25", "2026-07-27", "2026-07-29", "2026-07-31", "2026-08-02", "2026-08-04", "2026-08-06", "2026-08-08", "2026-08-10", "2026-08-12", "2026-08-14", "2026-08-16", "2026-08-18", "2026-08-20", "2026-08-22", "2026-08-24", "2026-08-26", "2026-08-28", "2026-08-30", "2026-09-01"], "lisse": {"CAQ": [15.24, 15.05, 14.88, 14.74, 14.62, 14.52, 14.44, 14.38, 14.33, 14.3, 14.29, 14.28, 14.29, 14.3, 14.31, 14.33, 14.35, 14.37, 14.4, 14.42, 14.45, 14.47, 14.5, 14.52, 14.55, 14.58, 14.61, 14.63, 14.66, 14.69, 14.72, 14.75, 14.78, 14.82, 14.85, 14.88, 14.92, 14.95, 14.99, 15.03, 15.07, 15.11, 15.15, 15.19, 15.24, 15.28, 15.33, 15.37, 15.42, 15.45, 15.49, 15.51, 15.53, 15.54, 15.53, 15.52, 15.5, 15.47, 15.43, 15.38, 15.33, 15.28, 15.22, 15.16, 15.1, 15.04, 14.98, 14.92, 14.86, 14.8, 14.74, 14.69, 14.63, 14.58, 14.53, 14.48, 14.44, 14.39, 14.35, 14.31, 14.27, 14.23, 14.18, 14.14, 14.1, 14.05, 14.0, 13.95, 13.9, 13.84, 13.78, 13.72, 13.67, 13.61, 13.55, 13.5, 13.44, 13.4, 13.35, 13.32, 13.29, 13.27, 13.25, 13.25, 13.25, 13.27, 13.29, 13.33, 13.38, 13.45, 13.53, 13.63, 13.74, 13.88, 14.02, 14.19, 14.38, 14.59, 14.81, 15.05, 15.31, 15.58, 15.86, 16.16, 16.46, 16.77, 17.08, 17.39, 17.7, 18.0, 18.29, 18.57, 18.84, 19.1, 19.34, 19.56, 19.76, 19.95, 20.11, 20.26, 20.39, 20.49, 20.58, 20.65, 20.7, 20.74, 20.76, 20.76, 20.76, 20.75, 20.74, 20.73, 20.71, 20.7, 20.7, 20.7, 20.7, 20.71, 20.72, 20.74, 20.76, 20.77, 20.79, 20.81, 20.83, 20.85, 20.86, 20.88, 20.89, 20.9, 20.92, 20.94, 20.96, 20.99, 21.03, 21.09, 21.17, 21.27, 21.4, 21.57, 21.77, 22.0, 22.27, 22.56, 22.89, 23.24, 23.61, 23.99, 24.38, 24.79, 25.19], "PLQ": [25.3, 25.31, 25.32, 25.34, 25.36, 25.39, 25.41, 25.44, 25.47, 25.49, 25.52, 25.54, 25.56, 25.58, 25.6, 25.61, 25.62, 25.62, 25.62, 25.61, 25.6, 25.59, 25.56, 25.54, 25.51, 25.47, 25.43, 25.38, 25.33, 25.27, 25.21, 25.15, 25.08, 25.01, 24.93, 24.85, 24.77, 24.68, 24.58, 24.47, 24.36, 24.24, 24.11, 23.97, 23.82, 23.66, 23.5, 23.33, 23.16, 23.0, 22.85, 22.71, 22.59, 22.5, 22.43, 22.39, 22.37, 22.37, 22.4, 22.45, 22.52, 22.6, 22.7, 22.81, 22.93, 23.05, 23.18, 23.32, 23.47, 23.62, 23.77, 23.93, 24.1, 24.27, 24.44, 24.61, 24.79, 24.97, 25.16, 25.34, 25.53, 25.73, 25.92, 26.11, 26.31, 26.51, 26.71, 26.91, 27.11, 27.31, 27.51, 27.7, 27.9, 28.09, 28.29, 28.48, 28.66, 28.84, 29.02, 29.19, 29.36, 29.52, 29.68, 29.82, 29.97, 30.1, 30.23, 30.34, 30.45, 30.55, 30.63, 30.71, 30.77, 30.82, 30.86, 30.89, 30.9, 30.9, 30.88, 30.85, 30.81, 30.75, 30.69, 30.61, 30.52, 30.42, 30.31, 30.19, 30.06, 29.93, 29.78, 29.63, 29.47, 29.3, 29.13, 28.95, 28.77, 28.58, 28.4, 28.2, 28.01, 27.82, 27.64, 27.46, 27.29, 27.13, 26.98, 26.85, 26.73, 26.63, 26.54, 26.46, 26.39, 26.32, 26.25, 26.19, 26.13, 26.06, 25.99, 25.92, 25.84, 25.77, 25.69, 25.62, 25.55, 25.47, 25.4, 25.33, 25.27, 25.2, 25.14, 25.07, 25.01, 24.93, 24.86, 24.77, 24.66, 24.54, 24.4, 24.23, 24.04, 23.83, 23.59, 23.32, 23.04, 22.74, 22.43, 22.1, 21.77, 21.44, 21.1], "QS": [9.58, 9.46, 9.34, 9.22, 9.1, 8.99, 8.87, 8.76, 8.65, 8.56, 8.47, 8.39, 8.33, 8.27, 8.23, 8.2, 8.17, 8.16, 8.16, 8.16, 8.17, 8.18, 8.2, 8.22, 8.24, 8.27, 8.29, 8.32, 8.35, 8.37, 8.4, 8.43, 8.46, 8.48, 8.51, 8.54, 8.56, 8.59, 8.61, 8.64, 8.66, 8.69, 8.71, 8.73, 8.75, 8.77, 8.79, 8.81, 8.83, 8.84, 8.86, 8.87, 8.89, 8.9, 8.92, 8.93, 8.93, 8.94, 8.94, 8.94, 8.94, 8.93, 8.92, 8.91, 8.89, 8.87, 8.85, 8.83, 8.81, 8.78, 8.76, 8.73, 8.7, 8.68, 8.65, 8.62, 8.6, 8.58, 8.56, 8.54, 8.52, 8.51, 8.51, 8.5, 8.51, 8.51, 8.53, 8.54, 8.56, 8.58, 8.61, 8.63, 8.66, 8.69, 8.71, 8.74, 8.76, 8.78, 8.8, 8.82, 8.83, 8.84, 8.85, 8.86, 8.86, 8.86, 8.86, 8.85, 8.84, 8.83, 8.81, 8.79, 8.77, 8.74, 8.71, 8.68, 8.65, 8.61, 8.57, 8.53, 8.48, 8.44, 8.4, 8.35, 8.31, 8.28, 8.24, 8.21, 8.19, 8.18, 8.17, 8.18, 8.19, 8.21, 8.24, 8.28, 8.33, 8.39, 8.46, 8.54, 8.62, 8.7, 8.78, 8.87, 8.95, 9.03, 9.1, 9.16, 9.21, 9.25, 9.29, 9.31, 9.33, 9.34, 9.35, 9.35, 9.36, 9.36, 9.37, 9.37, 9.38, 9.38, 9.39, 9.4, 9.4, 9.41, 9.41, 9.41, 9.42, 9.42, 9.42, 9.42, 9.41, 9.41, 9.4, 9.39, 9.38, 9.37, 9.36, 9.34, 9.32, 9.3, 9.28, 9.26, 9.24, 9.22, 9.2, 9.18, 9.16, 9.14, 9.13], "PQ": [36.02, 36.19, 36.34, 36.47, 36.58, 36.66, 36.73, 36.77, 36.79, 36.8, 36.78, 36.74, 36.69, 36.62, 36.54, 36.46, 36.36, 36.26, 36.16, 36.06, 35.97, 35.87, 35.78, 35.7, 35.62, 35.55, 35.49, 35.43, 35.38, 35.33, 35.3, 35.26, 35.24, 35.22, 35.2, 35.19, 35.19, 35.2, 35.21, 35.24, 35.27, 35.32, 35.37, 35.44, 35.52, 35.6, 35.69, 35.79, 35.88, 35.96, 36.03, 36.08, 36.11, 36.12, 36.11, 36.07, 36.01, 35.92, 35.82, 35.71, 35.58, 35.44, 35.3, 35.15, 34.99, 34.84, 34.68, 34.51, 34.35, 34.19, 34.02, 33.86, 33.7, 33.54, 33.38, 33.22, 33.06, 32.91, 32.77, 32.63, 32.49, 32.36, 32.24, 32.12, 32.02, 31.92, 31.83, 31.75, 31.67, 31.61, 31.55, 31.5, 31.46, 31.42, 31.39, 31.36, 31.34, 31.32, 31.3, 31.29, 31.27, 31.26, 31.25, 31.24, 31.23, 31.22, 31.21, 31.19, 31.17, 31.15, 31.13, 31.1, 31.06, 31.02, 30.97, 30.92, 30.86, 30.79, 30.71, 30.62, 30.53, 30.43, 30.33, 30.22, 30.11, 29.99, 29.88, 29.76, 29.65, 29.55, 29.45, 29.36, 29.27, 29.2, 29.14, 29.09, 29.06, 29.03, 29.02, 29.02, 29.03, 29.06, 29.09, 29.13, 29.18, 29.23, 29.28, 29.34, 29.39, 29.44, 29.49, 29.53, 29.57, 29.6, 29.63, 29.65, 29.67, 29.69, 29.71, 29.73, 29.74, 29.76, 29.78, 29.79, 29.81, 29.83, 29.84, 29.86, 29.87, 29.89, 29.9, 29.91, 29.92, 29.93, 29.93, 29.92, 29.91, 29.89, 29.85, 29.81, 29.76, 29.69, 29.61, 29.53, 29.43, 29.33, 29.22, 29.1, 28.98, 28.86, 28.74], "PCQ": [11.39, 11.63, 11.86, 12.07, 12.26, 12.44, 12.6, 12.74, 12.88, 12.99, 13.1, 13.19, 13.28, 13.35, 13.42, 13.48, 13.53, 13.58, 13.63, 13.67, 13.71, 13.75, 13.78, 13.82, 13.85, 13.88, 13.91, 13.94, 13.97, 14.0, 14.03, 14.06, 14.09, 14.12, 14.14, 14.17, 14.2, 14.23, 14.26, 14.29, 14.32, 14.35, 14.38, 14.41, 14.45, 14.48, 14.52, 14.56, 14.61, 14.65, 14.7, 14.76, 14.81, 14.87, 14.92, 14.98, 15.03, 15.09, 15.14, 15.19, 15.24, 15.28, 15.33, 15.37, 15.41, 15.44, 15.48, 15.51, 15.54, 15.57, 15.59, 15.62, 15.64, 15.65, 15.67, 15.68, 15.69, 15.69, 15.69, 15.69, 15.68, 15.67, 15.66, 15.64, 15.62, 15.6, 15.57, 15.54, 15.51, 15.47, 15.43, 15.39, 15.34, 15.29, 15.24, 15.19, 15.13, 15.07, 15.01, 14.94, 14.88, 14.81, 14.74, 14.67, 14.59, 14.52, 14.44, 14.36, 14.28, 14.2, 14.12, 14.04, 13.96, 13.88, 13.8, 13.72, 13.64, 13.57, 13.5, 13.43, 13.36, 13.3, 13.23, 13.18, 13.12, 13.07, 13.03, 12.99, 12.95, 12.92, 12.89, 12.86, 12.84, 12.82, 12.8, 12.79, 12.79, 12.78, 12.79, 12.79, 12.8, 12.81, 12.83, 12.85, 12.87, 12.9, 12.93, 12.97, 13.01, 13.05, 13.09, 13.13, 13.17, 13.22, 13.26, 13.3, 13.35, 13.39, 13.43, 13.48, 13.52, 13.56, 13.61, 13.65, 13.69, 13.74, 13.78, 13.82, 13.87, 13.91, 13.95, 14.0, 14.04, 14.09, 14.14, 14.18, 14.24, 14.29, 14.36, 14.42, 14.49, 14.57, 14.65, 14.74, 14.84, 14.93, 15.03, 15.14, 15.24, 15.35, 15.46]}, "sondages": [{"d": "2025-08-17", "f": "Léger", "n": 977, "v": [17.0, 26.0, 9.0, 35.0, 10.0]}, {"d": "2025-08-31", "f": "Léger", "n": 1045, "v": [15.0, 26.0, 9.0, 36.0, 12.0]}, {"d": "2025-09-01", "f": "Angus", "n": 622, "v": [12.0, 21.0, 11.0, 38.0, 16.0]}, {"d": "2025-09-06", "f": "Pallas", "n": 1187, "v": [11.0, 27.0, 8.0, 38.0, 15.0]}, {"d": "2025-09-14", "f": "Léger", "n": 1053, "v": [16.0, 27.0, 7.0, 38.0, 11.0]}, {"d": "2025-09-27", "f": "Léger", "n": 1037, "v": [16.0, 25.0, 6.0, 36.0, 15.0]}, {"d": "2025-10-19", "f": "Pallas", "n": 1234, "v": [13.0, 26.0, 10.0, 33.0, 14.0]}, {"d": "2025-11-09", "f": "Léger", "n": 1031, "v": [17.0, 27.0, 8.0, 32.0, 14.0]}, {"d": "2025-11-25", "f": "Pallas", "n": 1102, "v": [13.0, 25.0, 9.0, 36.0, 15.0]}, {"d": "2025-11-29", "f": "Angus", "n": 645, "v": [13.0, 18.0, 10.0, 40.0, 16.0]}, {"d": "2025-11-30", "f": "Léger", "n": 1042, "v": [18.0, 21.0, 8.0, 39.0, 13.0]}, {"d": "2025-12-14", "f": "Léger", "n": 1039, "v": [19.0, 20.0, 9.0, 35.0, 16.0]}, {"d": "2026-01-10", "f": "Pallas", "n": 1128, "v": [11.0, 24.0, 11.0, 34.0, 16.0]}, {"d": "2026-01-24", "f": "Innovative", "n": 600, "v": [14.0, 26.0, 6.0, 31.0, 18.0]}, {"d": "2026-01-28", "f": "Léger", "n": 1000, "v": [17.0, 26.0, 7.0, 32.0, 14.0]}, {"d": "2026-02-22", "f": "Pallas", "n": 1075, "v": [14.0, 27.0, 10.0, 30.0, 16.0]}, {"d": "2026-03-01", "f": "Léger", "n": 1041, "v": [13.0, 30.0, 9.0, 31.0, 15.0]}, {"d": "2026-03-21", "f": "Léger", "n": 1003, "v": [9.0, 33.0, 9.0, 33.0, 15.0]}, {"d": "2026-04-04", "f": "Léger", "n": 1036, "v": [13.0, 33.0, 8.0, 32.0, 12.0]}, {"d": "2026-04-14", "f": "Pallas", "n": 956, "v": [14.0, 32.0, 11.0, 29.0, 14.0]}, {"d": "2026-04-19", "f": "Léger", "n": 1030, "v": [17.0, 28.0, 8.0, 31.0, 14.0]}, {"d": "2026-04-27", "f": "Liaison", "n": 1000, "v": [16.0, 32.0, 7.0, 32.0, 11.0]}, {"d": "2026-05-08", "f": "Pallas", "n": 1176, "v": [19.0, 28.0, 8.0, 29.0, 14.0]}, {"d": "2026-05-09", "f": "Synopsis", "n": 1000, "v": [18.0, 30.0, 8.0, 30.0, 13.0]}, {"d": "2026-05-15", "f": "Mainstreet", "n": 1468, "v": [24.0, 32.0, 6.0, 23.0, 13.0]}, {"d": "2026-05-17", "f": "Léger", "n": 1027, "v": [22.0, 28.0, 8.0, 30.0, 11.0]}, {"d": "2026-06-07", "f": "Synopsis", "n": 1000, "v": [21.0, 25.0, 11.0, 31.0, 12.0]}, {"d": "2026-06-11", "f": "Pallas", "n": 1099, "v": [20.0, 25.0, 11.0, 29.0, 14.0]}, {"d": "2026-06-14", "f": "Léger", "n": 1014, "v": [21.0, 27.0, 8.0, 30.0, 13.0]}, {"d": "2026-08-02", "f": "Pallas", "n": 1121, "v": [19.0, 27.0, 9.0, 31.0, 14.0]}, {"d": "2026-08-08", "f": "Léger", "n": 998, "v": [20.0, 24.0, 11.0, 30.0, 13.0]}, {"d": "2026-08-08", "f": "Synopsis", "n": 1040, "v": [20.0, 26.0, 9.0, 30.0, 15.0]}, {"d": "2026-08-23", "f": "Léger", "n": 1001, "v": [23.0, 23.0, 7.0, 30.0, 16.0]}, {"d": "2026-08-25", "f": "Synopsis", "n": 1009, "v": [27.0, 20.0, 10.0, 28.0, 14.0]}, {"d": "2026-08-29", "f": "Pallas", "n": 1108, "v": [24.0, 22.0, 9.0, 29.0, 16.0]}, {"d": "2026-08-31", "f": "Léger", "n": 1008, "v": [24.0, 22.0, 10.0, 29.0, 15.0]}], "agregat": {"CAQ": 25.19, "PLQ": 21.1, "QS": 9.13, "PQ": 28.74, "PCQ": 15.46}, "pente": {"CAQ": 5.7, "PLQ": -4.8, "QS": -0.3, "PQ": -1.7, "PCQ": 1.5}};
+const PARTIS = [
+ {k:'PQ', nom:'PQ', v:'--pq'},
+ {k:'CAQ', nom:'CAQ', v:'--caq'},
+ {k:'PLQ', nom:'PLQ', v:'--plq'},
+ {k:'PCQ', nom:'PCQ', v:'--pcq'},
+ {k:'QS', nom:'QS', v:'--qs'}
+];
+const IDX = {CAQ:0,PLQ:1,QS:2,PQ:3,PCQ:4};
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const dnum = s => { const [y,m,d]=s.split('-').map(Number); return Date.UTC(y,m-1,d)/86400000; };
+const X0 = dnum(D.grid[0]), X1 = dnum('2026-10-05');
+const W=1000,H=470, ML=44, MR=64, MT=16, MB=42;
+const px = t => ML + (t-X0)/(X1-X0)*(W-ML-MR);
+const py = v => MT + (45-v)/45*(H-MT-MB);
+const MOIS=['janv.','févr.','mars','avr.','mai','juin','juill.','août','sept.','oct.','nov.','déc.'];
+const fmtD = s => { const [y,m,d]=s.split('-'); return `${+d} ${MOIS[+m-1]} ${y}`; };
+
+function draw(){
+  const svg=document.getElementById('c'); svg.innerHTML='';
+  const NS='http://www.w3.org/2000/svg';
+  const el=(t,a)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);return e;};
+  const g=el('g',{}); svg.appendChild(g);
+  for(let v=0;v<=45;v+=5){
+    g.appendChild(el('line',{x1:ML,x2:W-MR,y1:py(v),y2:py(v),stroke:css('--grid'),'stroke-width':1}));
+    const t=el('text',{x:ML-9,y:py(v)+4,'text-anchor':'end',fill:css('--muted'),'font-size':11,'font-family':'IBM Plex Mono, monospace'});
+    t.textContent=v+(v===45?'\u2009%':''); g.appendChild(t);
+  }
+  for(let y=2025;y<=2026;y++) for(let m=0;m<12;m++){
+    const d=Date.UTC(y,m,1)/86400000; if(d<X0||d>X1) continue;
+    if(m%2) continue;
+    g.appendChild(el('line',{x1:px(d),x2:px(d),y1:MT,y2:H-MB,stroke:css('--rule-soft'),'stroke-width':1}));
+    const t=el('text',{x:px(d),y:H-MB+19,'text-anchor':'middle',fill:css('--muted'),'font-size':11,'font-family':'IBM Plex Mono, monospace'});
+    t.textContent=MOIS[m].replace('.','')+(m===0?' '+y:''); g.appendChild(t);
+  }
+  [['2026-08-27','Campagne'],['2026-10-05','Scrutin']].forEach(([d,lab])=>{
+    const x=px(dnum(d));
+    g.appendChild(el('line',{x1:x,x2:x,y1:MT,y2:H-MB,stroke:css('--mark'),'stroke-width':1,'stroke-dasharray':'3 4'}));
+    const t=el('text',{x:x-6,y:MT+13,'text-anchor':'end',fill:css('--muted'),'font-size':11,'font-family':'IBM Plex Mono, monospace'});
+    t.textContent=lab; g.appendChild(t);
+  });
+  if(document.getElementById('pts').checked){
+    D.sondages.forEach(s=>{ PARTIS.forEach(p=>{
+      g.appendChild(el('circle',{cx:px(dnum(s.d)),cy:py(s.v[IDX[p.k]]),r:3.1,fill:css(p.v),opacity:.32}));
+    });});
+  }
+  PARTIS.forEach(p=>{
+    const pts=D.grid.map((d,i)=>`${px(dnum(d)).toFixed(1)},${py(D.lisse[p.k][i]).toFixed(1)}`).join(' ');
+    g.appendChild(el('polyline',{points:pts,fill:'none',stroke:css(p.v),'stroke-width':2.4,'stroke-linejoin':'round','stroke-linecap':'round'}));
+    const last=D.lisse[p.k].length-1, y=py(D.lisse[p.k][last]), x=px(dnum(D.grid[last]));
+    g.appendChild(el('circle',{cx:x,cy:y,r:4.2,fill:css(p.v),stroke:css('--card'),'stroke-width':2}));
+    const t=el('text',{x:x+9,y:y+4,fill:css(p.v),'font-size':13,'font-weight':600,'font-family':'IBM Plex Sans, sans-serif'});
+    t.textContent=p.nom; g.appendChild(t);
+  });
+  const cross=el('line',{id:'cross',x1:0,x2:0,y1:MT,y2:H-MB,stroke:css('--mark'),'stroke-width':1,opacity:0}); g.appendChild(cross);
+}
+
+function stats(){
+  const s=document.getElementById('stats'); s.innerHTML='';
+  PARTIS.forEach(p=>{
+    const d=document.createElement('div'); d.className='stat'; d.style.setProperty('--c',css(p.v));
+    const pe=D.pente[p.k];
+    const cur=D.lisse[p.k][D.lisse[p.k].length-1];
+    d.innerHTML=`<p class="p">${p.nom}</p><div class="v">${cur.toFixed(1)}<span style="font-size:14px;color:var(--muted)"> %</span></div>`+
+      `<div class="d">${pe>0?'▲':'▼'} ${Math.abs(pe).toFixed(1)} pp / 30 j</div>`;
+    s.appendChild(d);
+  });
+  const l=document.getElementById('lg'); l.innerHTML='';
+  PARTIS.forEach(p=>{ const d=document.createElement('span'); d.className='lg';
+    d.innerHTML=`<span class="sw" style="background:${css(p.v)}"></span>${p.nom}`; l.appendChild(d); });
+}
+
+function table(){
+  const t=document.getElementById('tb');
+  let h='<thead><tr><th>Date</th><th>Source</th>'+PARTIS.map(p=>`<th>${p.nom}</th>`).join('')+'</tr></thead><tbody>';
+  D.grid.forEach((d,i)=>{ if(!d.endsWith('-01')) return;
+    h+=`<tr><td>${fmtD(d)}</td><td class="f">courbe lissée</td>`+PARTIS.map(p=>`<td>${D.lisse[p.k][i].toFixed(1)}</td>`).join('')+'</tr>'; });
+  D.sondages.slice(-5).forEach(s=>{
+    h+=`<tr><td>${fmtD(s.d)}</td><td class="f">${s.f} · n=${s.n}</td>`+PARTIS.map(p=>`<td>${s.v[IDX[p.k]].toFixed(0)}</td>`).join('')+'</tr>'; });
+  t.innerHTML=h+'</tbody>';
+}
+
+
+const SEATS={
+ 'A – Swing proportionnel':{PQ:51,PLQ:36,CAQ:25,PCQ:9,QS:6},
+ 'B – Avec inertie locale':{PQ:44,PLQ:35,CAQ:31,PCQ:11,QS:6},
+ 'C – Fourchette haute':{PQ:49,PLQ:36,CAQ:22,PCQ:11,QS:9},
+ 'D – Fourchette basse':{PQ:57,PLQ:32,CAQ:25,PCQ:10,QS:3},
+ 'E – Amorti prop./uniforme':{PQ:49,PLQ:36,CAQ:27,PCQ:9,QS:6},
+ 'F – Régional + langue':{PQ:52,PLQ:28,CAQ:31,PCQ:10,QS:6}};
+const ORD=['PQ','PLQ','CAQ','PCQ','QS'], TOT=127, MAJ=64;
+const COUL={PQ:'--pq',PLQ:'--plq',CAQ:'--caq',PCQ:'--pcq',QS:'--qs'};
+
+function seats(){
+  const svg=document.getElementById('s'); if(!svg) return; svg.innerHTML='';
+  const NS='http://www.w3.org/2000/svg';
+  const el=(t,a)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);return e;};
+  const L2=16,R2=16,WW=1000-L2-R2;
+  const sx=n=>L2+n/TOT*WW;
+  const base=SEATS['A – Swing proportionnel'];
+  let acc=0;
+  const lab=el('text',{x:L2,y:20,fill:css('--muted'),'font-size':11,'font-family':'IBM Plex Mono, monospace','letter-spacing':'.08em'});
+  lab.textContent='SCÉNARIO CENTRAL — 127 SIÈGES'; svg.appendChild(lab);
+  ORD.forEach(k=>{
+    const w=base[k]/TOT*WW;
+    svg.appendChild(el('rect',{x:sx(acc),y:32,width:Math.max(w-2,1),height:38,rx:3,fill:css(COUL[k])}));
+    const cx=sx(acc)+w/2-1, etroit=w<62, y=etroit?104:86;
+    const g2=el('text',{x:cx,y:y,'text-anchor':'middle','font-family':'IBM Plex Sans, sans-serif','font-size':13});
+    const t1=el('tspan',{fill:css('--ink-2')}); t1.textContent=k+' ';
+    const t2=el('tspan',{fill:css('--ink'),'font-weight':600}); t2.textContent=base[k];
+    g2.appendChild(t1); g2.appendChild(t2); svg.appendChild(g2);
+    if(etroit) svg.appendChild(el('line',{x1:cx,x2:cx,y1:74,y2:93,stroke:css('--rule'),'stroke-width':1}));
+    acc+=base[k];
+  });
+  svg.appendChild(el('line',{x1:sx(MAJ),x2:sx(MAJ),y1:24,y2:78,stroke:css('--ink'),'stroke-width':2}));
+  const m=el('text',{x:sx(MAJ)+7,y:20,fill:css('--ink'),'font-size':11.5,'font-weight':600,'font-family':'IBM Plex Sans, sans-serif'});
+  m.textContent='64 = majorité'; svg.appendChild(m);
+
+  const l3=el('text',{x:L2,y:140,fill:css('--muted'),'font-size':11,'font-family':'IBM Plex Mono, monospace','letter-spacing':'.08em'});
+  l3.textContent='ÉTENDUE DES SIX SCÉNARIOS'; svg.appendChild(l3);
+  ORD.forEach((k,i)=>{
+    const y=164+i*24, vals=Object.values(SEATS).map(s=>s[k]);
+    const mn=Math.min(...vals), mx=Math.max(...vals);
+    const t0=el('text',{x:L2+30,y:y+4,'text-anchor':'end',fill:css('--ink-2'),'font-size':12,'font-family':'IBM Plex Sans, sans-serif'});
+    t0.textContent=k; svg.appendChild(t0);
+    svg.appendChild(el('line',{x1:sx(0)+42,x2:sx(TOT),y1:y,y2:y,stroke:css('--rule-soft'),'stroke-width':1}));
+    const p=n=>L2+42+n/TOT*(WW-42);
+    svg.appendChild(el('line',{x1:p(mn),x2:p(mx),y1:y,y2:y,stroke:css(COUL[k]),'stroke-width':5,'stroke-linecap':'round',opacity:.32}));
+    svg.appendChild(el('circle',{cx:p(base[k]),cy:y,r:5,fill:css(COUL[k]),stroke:css('--card'),'stroke-width':2}));
+    const t3=el('text',{x:p(mx)+11,y:y+4,fill:css('--ink-2'),'font-size':11.5,'font-family':'IBM Plex Mono, monospace'});
+    t3.textContent=mn+'–'+mx; svg.appendChild(t3);
+  });
+  const pm=L2+42+MAJ/TOT*(WW-42);
+  svg.appendChild(el('line',{x1:pm,x2:pm,y1:154,y2:164+4*24+12,stroke:css('--ink'),'stroke-width':1,'stroke-dasharray':'3 4',opacity:.55}));
+}
+
+function tscen(){
+  const t=document.getElementById('ts'); if(!t) return;
+  let h='<thead><tr><th>Scénario</th>'+ORD.map(k=>`<th>${k}</th>`).join('')+'<th>Majorité</th></tr></thead><tbody>';
+  for(const [nom,s] of Object.entries(SEATS)){
+    const mx=Math.max(...Object.values(s));
+    h+=`<tr><td class="lab">${nom}</td>`+ORD.map(k=>`<td>${s[k]}</td>`).join('')+`<td>${mx>=MAJ?'oui':'aucune'}</td></tr>`;
+  }
+  t.innerHTML=h+'</tbody>';
+}
+
+const svg=document.getElementById('c'), tip=document.getElementById('tip');
+svg.addEventListener('pointermove',e=>{
+  const r=svg.getBoundingClientRect(), sx=(e.clientX-r.left)/r.width*W;
+  if(sx<ML||sx>W-MR){ tip.style.opacity=0; const c=document.getElementById('cross'); if(c)c.setAttribute('opacity',0); return; }
+  const t=X0+(sx-ML)/(W-ML-MR)*(X1-X0);
+  let bi=0,bd=1e9; D.grid.forEach((d,i)=>{const dd=Math.abs(dnum(d)-t); if(dd<bd){bd=dd;bi=i;}});
+  if(bd>12){ tip.style.opacity=0; return; }
+  const c=document.getElementById('cross'); c.setAttribute('x1',px(dnum(D.grid[bi]))); c.setAttribute('x2',px(dnum(D.grid[bi]))); c.setAttribute('opacity',.5);
+  tip.innerHTML=`<div class="td">${fmtD(D.grid[bi])}</div>`+PARTIS.map(p=>
+    `<div class="row"><span class="sw" style="background:${css(p.v)}"></span>${p.nom}<b>${D.lisse[p.k][bi].toFixed(1)}</b></div>`).join('');
+  tip.style.opacity=1;
+  const bx=px(dnum(D.grid[bi]))/W*r.width;
+  tip.style.left=Math.min(Math.max(bx+14,8),r.width-176)+'px';
+  tip.style.top='26px';
+});
+svg.addEventListener('pointerleave',()=>{tip.style.opacity=0;const c=document.getElementById('cross');if(c)c.setAttribute('opacity',0);});
+document.getElementById('pts').addEventListener('change',draw);
+const mq=window.matchMedia('(prefers-color-scheme:dark)');
+mq.addEventListener?.('change',()=>{draw();stats();seats();});
+stats(); draw(); table(); seats(); tscen();
+window.addEventListener('resize',()=>{});
+</script>
+</body></html>
